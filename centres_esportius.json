@@ -1,6 +1,7 @@
 {
   "sport_centers": [
-    { "sport": "Escalada",
+    {
+      "sport": "Escalada",
       "organitzations": [
         {
           "name": "esRocodrom",
@@ -11,11 +12,63 @@
           "image": "https://esrocodrom.com/botiga/wp-content/uploads/2017/08/cropped-esrocodrom-logo-web-2.png",
           "slogan": "",
           "schedule": "De lunes a viernes de 8:30 a 22:00, fines de semana de 8:30 a 14:00",
-          "telephone": "971 963 044",
-          "url": "https://esrocodrom.com/",
+          "telephone": "971963044",
+          "url": "https://esrocodrom.com/"
+        },
+        {
+          "name": "ES CAU",
+          "adress": "C/ Jaume Ferran Nº 72",
+          "city": "Palma de Mallorca",
+          "coordinates": "39.58414, 2.66030",
+          "email": "rocodromescau@gmail.com",
+          "image": "https://static.wixstatic.com/media/17ec2d_fc05109bc52f4b349f1a7b42d7a57ba8~mv2.jpg/v1/fill/w_68,h_68,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17ec2d_fc05109bc52f4b349f1a7b42d7a57ba8~mv2.jpg",
+          "slogan": "",
+          "schedule": "DE LUNES A SÁBADO DE 9:00-22:00",
+          "telephone": " 871531093",
+          "url": "https://es.rocodromescau.com/"
+        },
+        {
+          "name": "Indoorwall",
+          "adress": "Carrer Gremi Corredors, 39",
+          "city": "Palma de Mallorca",
+          "coordinates": "39.60584, 2.65608",
+          "email": "mallorca@indoorwall.com",
+          "image": "https://www.indoorwall.com/wp-content/uploads/2022/01/logo-indoorwall-1.png",
+          "slogan": "",
+          "schedule": "Lunes a viernes de 9h a 22h Sábados y domingos de 10h a 20h",
+          "telephone": "971424840",
+          "url": "https://www.indoorwall.com/centros-indoorwall-rocodromos/indoorwall-mallorca/"
         }
-      ],
+      ]
+    },
+    {
+      "sport": "Baket",
+      "organitzations": [
+        {
+          "name": "Palau municipal d'esports",
+          "adress": "Plaça d'Espanya 1",
+          "city": "Inca",
+          "coordinates": "39.71285, 2.90409",
+          "email": "",
+          "image": "",
+          "slogan": "",
+          "schedule": "",
+          "telephone": "971504216",
+          "url": "https://incaciutat.com/"
+        },
+        {
+          "name": "Pabellón de Sa Creu",
+          "adress": "Carrer Llubí, 50",
+          "city": "Inca",
+          "coordinates": "39.71764, 2.92063",
+          "email": "",
+          "image": "",
+          "slogan": "",
+          "schedule": "De lunes a sabado de 17:30-22:00",
+          "telephone": "971504216",
+          "url": "https://incaciutat.com/"
+        }
+      ]
     }
-  ]  
+  ]
 }
-
