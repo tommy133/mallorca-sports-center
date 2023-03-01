@@ -1,0 +1,21 @@
+{
+  "sport_centers": [
+    { "sport": "Escalada",
+      "organitzations": [
+        {
+          "name": "esRocodrom",
+          "adress": "Mandrava, 107",
+          "city": "Inca",
+          "coordinates": "",
+          "email": "esrocodrom@gmail.com",
+          "image": "https://esrocodrom.com/botiga/wp-content/uploads/2017/08/cropped-esrocodrom-logo-web-2.png",
+          "slogan": "",
+          "schedule": "De lunes a viernes de 8:30 a 22:00, fines de semana de 8:30 a 14:00",
+          "telephone": "971 963 044",
+          "url": "https://esrocodrom.com/",
+        }
+      ],
+    }
+  ]  
+}
+
