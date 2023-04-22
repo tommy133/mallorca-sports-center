@@ -9704,6 +9704,27 @@ h6,
   list-style-type: none;
 }
 
+.main-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+
+
+
+
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 12rem;
+  
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -9729,7 +9750,9 @@ h6,
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: rgba(255, 0, 0, .5);
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -9739,4 +9762,122 @@ h6,
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: var(--red);
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  position: absolute;
+  width: 400px;
+  height: max-content;
+  background: rgba(255, 0, 0, 0.8);
+  overflow: auto;
+  right: -400px;
+  transition: all 500ms linear;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+#sidebar.active {
+  right: 0px;
+}
+
+#sidebar section {
+  color: rgb(225, 49, 49);
+  text-align: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(255, 0, 0, .3);
+}
+
+#sidebar h2 {
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#sidebar p {
+  color: #fff;
+}
+
+
+#sidebar .img-sidebar {
+  max-width: 330px;
+  margin-bottom: 1rem;
+}
+
+.weather-content {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  max-width: 501px;
+  text-align: center;
+  padding: 20px 20px 50px;
+  margin: 10% 0% 10% 0%;
+  background-color: #546785;
+  border-radius: 9px;
+}
+.weather-content h1{
+  font-size: 34px;
+  margin-bottom: 10px;
+  color: #FFF;
+}
+.weather-content p{
+  color: #cfcfd9;
+}
+.result{
+  margin-bottom: 8%;
+}
+.result p{
+  margin: 5px 0 5px;
+}
+.result h2{
+  font-size: 70px;
+  line-height: 70px;
+  margin: -10px 0 10px;
+  color: #fff;
+}
+.result h5{
+  font-size: 21px;
+  margin: 2px;
+  color: #fff;
+}
+
+.alert-message {
+  margin: 24px 0 0;
+  color: red!important;
+}
+
+#sidebar iframe{
+  max-width: 320px;
+  max-height: 320px;
+}
+
+div.row{
+    margin-left: -400px;
+}
+
+@media screen and (max-width: 1950px){
+  div.row{
+    margin-left: -400px;
+    margin-right: 200px;
+    padding-left: 170px;
+  }
+}
+
+@media screen and (max-width: 1500px){
+  div.row{
+    margin-left: -400px;
+    margin-right: 300px;
+    padding-left: 270px;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  div.row{
+    margin-left: -400px;
+    margin-right: 360px;
+    padding-left: 370px;
+  }
 }
