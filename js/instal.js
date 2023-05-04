@@ -91,8 +91,43 @@ function displayCenters() {
       facebook.appendChild(facebookIcon);
       teamSocial.appendChild(instagram);
       instagram.appendChild(instagramIcon);
+
+      team.addEventListener('click', function activarSidebar() {
+        // This function will display the details of the selected element
+        document.getElementById('sidebar').classList.toggle('active');
+        //paint details in sidebar like done above
+        const displayItemsList = document.querySelectorAll('.display-items');
+        displayItemsList.forEach((element) => {
+            if (sidebar.classList.contains('active')) {
+                element.style.marginLeft = '0';
+                element.style.marginBottom = '500px';
+                detectarCambioTamanioVentana();
+            } else {
+                element.style.width = '100%';
+                element.style.marginLeft = '';
+            }
+        });
+      });
     });
   });
   const container = document.getElementById("centers-container");
   container.appendChild(row);
+}
+
+window.addEventListener('resize', detectarCambioTamanioVentana);
+// Actualizar los estilos CSS si el ancho es menor a 768 píxeles
+function detectarCambioTamanioVentana() {
+    const windowWidth = window.innerWidth;
+    const sidebar = document.getElementById('sidebar');
+    const displayItemsList = document.querySelectorAll('.display-items');
+    displayItemsList.forEach((element) => {
+        if (windowWidth > 1000 && sidebar.classList.contains('active')) {
+            element.style.width = '70%';
+            sidebar.style.width = '30%';
+        }
+        if(windowWidth < 1000 && sidebar.classList.contains('active')){
+            element.style.width = '50%';
+            sidebar.style.width = '50%';
+        }
+    });
 }
