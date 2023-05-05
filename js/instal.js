@@ -93,9 +93,10 @@ function displayCenters() {
       instagram.appendChild(instagramIcon);
 
       team.addEventListener('click', function activarSidebar() {
+        createSidebar(organization);
         // This function will display the details of the selected element
         document.getElementById('sidebar').classList.toggle('active');
-        //paint details in sidebar like done above
+        
         const displayItemsList = document.querySelectorAll('.display-items');
         displayItemsList.forEach((element) => {
             if (sidebar.classList.contains('active')) {
@@ -113,6 +114,53 @@ function displayCenters() {
   const container = document.getElementById("centers-container");
   container.appendChild(row);
 }
+
+function createSidebar(organization) {
+  const container = document.getElementById('sidebar');
+  container.innerHTML = '';
+  const title = document.createElement('h2');
+  title.innerText = organization.name;
+  container.appendChild(title);
+
+  const image = document.createElement('img');
+  image.classList.add('img-sidebar');
+  image.src = organization.image;
+  image.alt = '';
+  container.appendChild(image);
+
+  const description = document.createElement('p');
+  description.innerText = `Descripció: ${organization.description}`;
+  container.appendChild(description);
+
+  const hours = document.createElement('p');
+  hours.innerText = `Horaris: ${organization.hours}`;
+  container.appendChild(hours);
+
+  const prices = document.createElement('p');
+  prices.innerText = `Preus: ${organization.prices}`;
+  container.appendChild(prices);
+
+  const weather = document.createElement('section');
+  weather.classList.add('weather-content');
+
+  const weatherResult = document.createElement('div');
+  weatherResult.classList.add('result');
+  weather.appendChild(weatherResult);
+
+  container.appendChild(weather);
+
+  const map = document.createElement('iframe');
+  map.src = organization.mapUrl;
+  map.width = '600';
+  map.height = '450';
+  map.style.border = '0';
+  map.allowFullscreen = true;
+  map.loading = 'lazy';
+  map.referrerpolicy = 'no-referrer-when-downgrade';
+  container.appendChild(map);
+
+}
+
 
 window.addEventListener('resize', detectarCambioTamanioVentana);
 // Actualizar los estilos CSS si el ancho es menor a 768 píxeles
