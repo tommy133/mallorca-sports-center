@@ -148,9 +148,12 @@ function createSidebar(organization) {
   weather.appendChild(weatherResult);
 
   container.appendChild(weather);
-
+  result = document.querySelector('.result');
+  form = document.querySelector('.get-weather');
+  callAPI();
+  
   const map = document.createElement('iframe');
-  map.src = organization.mapUrl;
+  map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24588.204542066684!2d2.6253476408292857!3d39.61536866385299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793973f68da73%3A0x2e3c4056d52b07c!2sIndoorwall%20Mallorca!5e0!3m2!1ses!2ses!4v1680681109903!5m2!1ses!2ses"
   map.width = '600';
   map.height = '450';
   map.style.border = '0';
@@ -178,4 +181,69 @@ function detectarCambioTamanioVentana() {
             sidebar.style.width = '50%';
         }
     });
+}
+
+
+
+
+
+
+function callAPI(){
+    const url = 'https://api.openweathermap.org/data/2.5/weather?lat=39.606805723373036&lon=2.655903364769095&appid=e443226be243e85601ebdf922d9574b7';
+
+    fetch(url)
+        .then(data => {
+            return data.json();
+        })
+        .then(dataJSON => {
+            if (dataJSON.cod === '404') {
+                showError('Coordenadas incorrectas..');
+            } else {
+                clearHTML();
+                showWeather(dataJSON);
+            }
+            //console.log(dataJSON);
+        })
+        .catch(error => {
+            console.log(error);
+        })
+}
+
+function showWeather(data){
+    const {name, main:{temp}, weather:[arr]} = data;
+
+    const degrees = kelvinToCentigrade(temp);
+
+    const content = document.createElement('div');
+    content.innerHTML = `
+        <h5>Clima en ${name}</h5>
+        <img src="https://openweathermap.org/img/wn/${arr.icon}@2x.png" alt="icon">
+        <h2>${degrees}°C</h2>
+    `;
+
+    result.appendChild(content);
+
+    console.log(name);
+    console.log(temp);
+    console.log(arr.icon); 
+}
+
+function showError(message){
+    //console.log(message);
+    const alert = document.createElement('p');
+    alert.classList.add('alert-message');
+    alert.innerHTML = message;
+
+    form.appendChild(alert);
+    setTimeout(() => {
+        alert.remove();
+    }, 3000);
+}
+
+function kelvinToCentigrade(temp){
+    return parseInt(temp - 273.15);
+}
+
+function clearHTML(){
+    result.innerHTML = '';
 }
