@@ -153,7 +153,7 @@ function createSidebar(center) {
   map.loading = 'lazy';
   map.referrerpolicy = 'no-referrer-when-downgrade';
   container.appendChild(map);
-
+    console.log(map.src)
 }
 
 
