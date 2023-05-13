@@ -16,8 +16,7 @@ function displayCenters() {
 
   const row = document.createElement("div");
   row.classList.add("row");
-  centers.sport_centers.forEach((center) => {
-    center.organitzations.forEach((organization) => {
+  centers.itemListElement.forEach((center) => {console.log(center)
       const col = document.createElement("div");
       col.classList.add("col-lg-3", "col-md-6");
 
@@ -31,7 +30,7 @@ function displayCenters() {
 
       const img = document.createElement("img");
       img.classList.add("img-fluid");
-      img.setAttribute("src", organization.image);
+      img.setAttribute("src", center.image);
       img.setAttribute("alt", "");
 
       const textContainer = document.createElement("div");
@@ -42,18 +41,18 @@ function displayCenters() {
 
       const h5 = document.createElement("h5");
       h5.classList.add("text-white", "text-uppercase");
-      h5.textContent = organization.name;
+      h5.textContent = center.name;
 
       const p = document.createElement("p");
       p.classList.add("m-0");
-      p.textContent = organization.city;
+      p.textContent = center.geo.address.addressLocality;
 
       const teamSocial = document.createElement("div");
       teamSocial.classList.add("team-social", "bg-dark", "text-center");
 
       const twitter = document.createElement("a");
       twitter.classList.add("btn", "btn-outline-primary", "btn-square", "mr-2");
-      twitter.setAttribute("href", organization.twitter);
+      twitter.setAttribute("href", center.contactPoint.twitter);
 
       const twitterIcon = document.createElement("i");
       twitterIcon.classList.add("fab", "fa-twitter");
@@ -65,14 +64,14 @@ function displayCenters() {
         "btn-square",
         "mr-2"
       );
-      facebook.setAttribute("href", organization.facebook);
+      facebook.setAttribute("href", center.contactPoint.facebook);
 
       const facebookIcon = document.createElement("i");
       facebookIcon.classList.add("fab", "fa-facebook-f");
 
       const instagram = document.createElement("a");
       instagram.classList.add("btn", "btn-outline-primary", "btn-square");
-      instagram.setAttribute("href", organization.instagram);
+      instagram.setAttribute("href", center.contactPoint.instagram);
 
       const instagramIcon = document.createElement("i");
       instagramIcon.classList.add("fab", "fa-instagram");
@@ -93,7 +92,7 @@ function displayCenters() {
       instagram.appendChild(instagramIcon);
 
       team.addEventListener('click', function activarSidebar() {
-        createSidebar(organization);
+        createSidebar(center);
         // This function will display the details of the selected element
         document.getElementById('sidebar').classList.toggle('active');
         
@@ -109,36 +108,28 @@ function displayCenters() {
             }
         });
       });
-    });
+
   });
   const container = document.getElementById("centers-container");
   container.appendChild(row);
 }
 
-function createSidebar(organization) {
+function createSidebar(center) {
   const container = document.getElementById('sidebar');
   container.innerHTML = '';
   const title = document.createElement('h2');
-  title.innerText = organization.name;
+  title.innerText = center.name;
   container.appendChild(title);
 
   const image = document.createElement('img');
   image.classList.add('img-sidebar');
-  image.src = organization.image;
+  image.src = center.image;
   image.alt = '';
   container.appendChild(image);
 
-  const description = document.createElement('p');
-  description.innerText = `Descripció: ${organization.description}`;
-  container.appendChild(description);
-
   const hours = document.createElement('p');
-  hours.innerText = `Horaris: ${organization.hours}`;
+  hours.innerText = `Horaris: ${center.schedule}`;
   container.appendChild(hours);
-
-  const prices = document.createElement('p');
-  prices.innerText = `Preus: ${organization.prices}`;
-  container.appendChild(prices);
 
   const weather = document.createElement('section');
   weather.classList.add('weather-content');
@@ -150,10 +141,11 @@ function createSidebar(organization) {
   container.appendChild(weather);
   result = document.querySelector('.result');
   form = document.querySelector('.get-weather');
-  callAPI();
+  callWeatherAPI(center.geo.latitude, center.geo.longitude);
   
   const map = document.createElement('iframe');
-  map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24588.204542066684!2d2.6253476408292857!3d39.61536866385299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793973f68da73%3A0x2e3c4056d52b07c!2sIndoorwall%20Mallorca!5e0!3m2!1ses!2ses!4v1680681109903!5m2!1ses!2ses"
+  const embedUrl = `https://www.google.com/maps/embed/v1/view?key=AIzaSyBmujnroAI4oHwpPNNdQRad77vsnE3_AVs&center=${center.geo.latitude},${center.geo.longitude}&zoom=15`;
+  map.src = embedUrl;
   map.width = '600';
   map.height = '450';
   map.style.border = '0';
@@ -188,8 +180,8 @@ function detectarCambioTamanioVentana() {
 
 
 
-function callAPI(){
-    const url = 'https://api.openweathermap.org/data/2.5/weather?lat=39.606805723373036&lon=2.655903364769095&appid=e443226be243e85601ebdf922d9574b7';
+function callWeatherAPI(lat, lon){
+    const url = "https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=e443226be243e85601ebdf922d9574b7";
 
     fetch(url)
         .then(data => {
