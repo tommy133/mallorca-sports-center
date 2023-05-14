@@ -32,9 +32,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.youtube.com/watch?v=cCxivEJeJqY"
                 ]
@@ -42,7 +39,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 0,
+            "@identifier": 1,
             "tipusE":"Escalada",
             "email": "rocodromescau@gmail.com",
             "telephone": "871531093",
@@ -70,9 +67,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.youtube.com/watch?v=xiO9cGaGkeA"
                 ]
@@ -80,7 +74,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 0,
+            "@identifier": 2,
             "tipusE":"Escalada",
             "email": "mallorca@indoorwall.com",
             "telephone": "971424840",
@@ -108,17 +102,48 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://fb.watch/kwQ4JE46xf/"
+                ]
+            }
+        },{
+            "@type": "sport_centers",
+            "@identifier": 3,
+            "tipusE":"Escalada",
+            "email": "tramuntanadventures@gmail.com",
+            "telephone": "636727975",
+            "name": "Tramuntana Adventures Mallorcaz",
+            "url": "https://tramuntanaadventur.wixsite.com/tramuntanaadventures",
+            "schedule": "De lunes a sábado de 8h a 20h, domingos de 8h a 14h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Estellencs",
+                    "postalCode": " 07192",
+                    "streetAddress": "Diseminado Carretera a Palma, 11"
+                },
+                "latitude": 39.656458, 
+                "longitude":2.498244
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "tramuntanadventures@gmail.com",
+                "telephone": "636727975"
+            },
+            "image": [
+                "https://lh5.googleusercontent.com/p/AF1QipN8ebtD9BjvcHKNLPsubkszCQB40LiYz59mDc0l=w260-h175-n-k-no"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://youtu.be/sVgNLfp4szY"
                 ]
             }
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 0,
             "tipusE":"Padel",
             "email": "padelboxsantamaria@gmail.com",
             "telephone": "971621647",
@@ -146,9 +171,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.youtube.com/watch?v=bzx071hh6uc"
                 ]
@@ -194,7 +216,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 2,
             "tipusE":"Padel",
             "email": "centralgoin@gmail.com",
             "telephone": "971604161, 640149503",
@@ -232,7 +254,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 3,
             "tipusE":"Padel",
             "email": "infosacabana@gmail.com",
             "telephone": " 971794166",
@@ -270,7 +292,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 4,
             "tipusE":"Padel",
             "email": "garaualvarezjoan@gmail.com",
             "telephone": "605507762",
@@ -308,7 +330,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 5,
             "tipusE":"Padel",
             "email": "xisco.quesada79@gmail.com",
             "telephone": "674588580",
@@ -346,7 +368,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 6,
             "tipusE":"Padel",
             "email": "info@palmaracketclub.es",
             "telephone": "971736319",
@@ -384,7 +406,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 7,
             "tipusE":"Padel",
             "email": "padelalcudia@hotmail.com",
             "telephone": "625 84 91 97",
@@ -422,7 +444,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 8,
             "tipusE":"Padel",
             "email": "palmapls@lasallevp.es",
             "telephone": "971606382",
@@ -450,9 +472,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.facebook.com/padellasallepalma/videos"
                 ]
@@ -460,7 +479,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
+            "@identifier": 9,
             "tipusE":"Padel",
             "email": "info@palmapadel.es",
             "telephone": "971254730",
@@ -488,9 +507,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.youtube.com/watch?v=oBhV5FiWRS4&t=52s"
                 ]
@@ -498,7 +514,146 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 2,
+            "@identifier": 10,
+            "tipusE":"Padel",
+            "email": "info (@) pinspadelclub.es",
+            "telephone": "971450574",
+            "name": "Pins Pàdel Club",
+            "url": "https://pinspadelclub.com/es/",
+            "schedule": "De lunes a viernes de 9h a 23h, sábados y domingos de 9h a 21h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07014",
+                    "streetAddress": "Calle Lluis Ferbal, 7"
+                },
+                "latitude": 39.5755370, 
+                "longitude": 2.6190885 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info (@) pinspadelclub.es",
+                "telephone": "971450574"
+            },
+            "image": [
+                "https://lh3.googleusercontent.com/p/AF1QipNXBvnoOPRj8TjBJayV6DTQlJHzJLmndp05Y8cR=s680-w680-h510"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=mJNW95xhNKI"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 11,
+            "tipusE":"Padel",
+            "email": "info@padelclubmallorca.com ",
+            "telephone": "669599012",
+            "name": "Padel Club Mallorca",
+            "url": "https://padelclubmallorca.com/",
+            "schedule": "De lunes a viernes de 8:30h a 23h, sábados y domingos de 9h a 21h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07007",
+                    "streetAddress": "Carrer George Sand, 4,"
+                },
+                "latitude": 39.5768141, 
+                "longitude": 2.6791072 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@padelclubmallorca.com ",
+                "telephone": "669599012"
+            },
+            "image": [
+                "https://padelclubmallorca.com/wp-content/uploads/2022/03/DJI_0076-scaled-400x284.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://padelclubmallorca.com/wp-content/uploads/2022/05/padelclubmallorca.mp4"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 12,
+            "tipusE":"Padel",
+            "email": "",
+            "telephone": "971432305",
+            "name": "Padel Factory ",
+            "url": "https://padelfactory.es/",
+            "schedule": "De lunes a viernes de 8:30h a 00h, sábados y domingos de 9h a 22h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07009",
+                    "streetAddress": "C. Gremi Teixidors, 3"
+                },
+                "latitude": 39.6001329, 
+                "longitude": 2.6725049   
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "",
+                "telephone": "971432305"
+            },
+            "image": [
+                "https://lh5.googleusercontent.com/p/AF1QipPWWFGoDpWiX6I-zCdyK3iVfGpCoHlSSC-rPS-F=w408-h306-k-no"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=kH72WJ8WsZg"
+                ]
+            }
+        },{
+            "@type": "sport_centers",
+            "@identifier": 13,
+            "tipusE":"Padel",
+            "email": "",
+            "telephone": "971127520",
+            "name": "Fit Point",
+            "url": "https://fitpointpadel.es/",
+            "schedule": "De lunes a viernes de 8:30h a 00h, sábados y domingos de 9h a 22h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07007",
+                    "streetAddress": "Polígono de Son Morro, Carrer Son Morro, 10"
+                },
+                "latitude": 39.5745405, 
+                "longitude": 2.6894214    
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "",
+                "telephone": "971127520"
+            },
+            "image": [
+                "https://reservas.fitpoint.es/Pages/images.ashx?id=f9b30483d0182489c4593f7117f727a5"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://fb.watch/kx0BtOXNWH/"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 0,
             "tipusE":"Basket",
             "email": "club@cblasalle.com (FBIB/FEB, árbitros y clubes),oficina@cblasalle.com (matrícula, cuotas, datos bancarios, documentación),coordinacion@cblasalle.com (incorporación jugadores/entrenadores),web@cblasalle.com",
             "telephone": "971790513",
@@ -526,9 +681,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.cblasalle.com/images/web/20180608_Clausura.mp4"
                 ]
@@ -536,7 +688,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 2,
+            "@identifier": 1,
             "tipusE":"Basket",
             "email": "clubbasquetcampos@gmail.com",
             "telephone": "617853515",
@@ -602,9 +754,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.youtube.com/watch?v=a7FzpXOGtUU"
                 ]
@@ -612,7 +761,7 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 2,
+            "@identifier": 3,
             "tipusE":"Basket",
             "email": "federacio@fbib.es",
             "telephone": "971730503",
@@ -640,9 +789,6 @@
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
                     "https://www.youtube.com/watch?v=Rzmf84XgoHk"
                 ]
@@ -650,39 +796,36 @@
         },
         {
             "@type": "sport_centers",
-            "@identifier": 1,
-            "tipusE":"Padel",
-            "email": "info (@) pinspadelclub.es",
-            "telephone": "971450574",
-            "name": "Pins Pàdel Club",
-            "url": "https://pinspadelclub.com/es/",
-            "schedule": "De lunes a viernes de 9h a 23h, sábados y domingos de 9h a 21h",
+            "@identifier": 4,
+            "tipusE":"Basket",
+            "email": " sjo@santjosepobrer.es",
+            "telephone": "971473308",
+            "name": "Club Sant Josep",
+            "url": "https://www.santjosepobrer.es/es/extra/sports-club",
+            "schedule": "lunes, martes, miercoles y viernes de 16h a 17h",
             "geo": {
                 "@type": "GeoCoordinates",
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "Palma",
-                    "postalCode": "07014",
-                    "streetAddress": "Calle Lluis Ferbal, 7"
+                    "postalCode": "07008",
+                    "streetAddress": "Carrer de Sebastià Arrom, 3"
                 },
-                "latitude": 39.5755370, 
-                "longitude": 2.6190885 
+                "latitude": 39.5803427, 
+                "longitude": 2.6822407   
             },
             "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "info (@) pinspadelclub.es",
-                "telephone": "971450574"
+                "email": "sjo@santjosepobrer.es",
+                "telephone": "971473308"
             },
             "image": [
-                "https://lh3.googleusercontent.com/p/AF1QipNXBvnoOPRj8TjBJayV6DTQlJHzJLmndp05Y8cR=s680-w680-h510"
+                "https://lh5.googleusercontent.com/p/AF1QipM1xY3GV8i115HDG9XZmrQdjIJXu0wVZMoGOeSW=w408-h306-k-no"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
-                "audio": [
-                    "url"
-                ],
                 "video": [
-                    "https://www.youtube.com/watch?v=mJNW95xhNKI"
+                    "https://twitter.com/i/status/792721790569177088"
                 ]
             }
         }
