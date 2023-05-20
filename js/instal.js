@@ -16,7 +16,9 @@ xhttp.onreadystatechange = function () {
         // Get the filter values from the input element
         var filterValue = filterInput.value.toLowerCase();
     let filteredData = centers.itemListElement.filter((center) => {
-        return center.name.toLowerCase().includes(filterValue) || center.geo.address.addressLocality.toLowerCase().includes(filterValue)
+        return center.name.toLowerCase().includes(filterValue) || 
+        center.tipusE.toLowerCase().includes(filterValue) || 
+        center.geo.address.addressLocality.toLowerCase().includes(filterValue)
       });
       let noFilteredData = centers.itemListElement;
       centers.itemListElement = filteredData;
