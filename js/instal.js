@@ -1,4 +1,9 @@
-var centers;
+let centers;
+
+let filterInput = document.getElementById('filterInput');
+let filterButton = document.getElementById('filterButton');
+
+
 
 const xhttp = new XMLHttpRequest();
 xhttp.open("GET", "json/Sport_Center.json", true);
@@ -7,16 +12,31 @@ xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     centers = JSON.parse(this.responseText);
 
+    filterButton.addEventListener('click', function() {
+        // Get the filter values from the input element
+        var filterValue = filterInput.value.toLowerCase();
+    let filteredData = centers.itemListElement.filter((center) => {
+        return center.name.toLowerCase().includes(filterValue) || 
+        center.tipusE.toLowerCase().includes(filterValue) || 
+        center.geo.address.addressLocality.toLowerCase().includes(filterValue)
+      });
+      let noFilteredData = centers.itemListElement;
+      centers.itemListElement = filteredData;
+      const container = document.getElementById("centers-container");
+      container.innerHTML='';
     displayCenters();
+    centers.itemListElement = noFilteredData;
   }
+    );
+
+    displayCenters();
 };
+}
 
 function displayCenters() {
-  console.log(centers);
-
   const row = document.createElement("div");
   row.classList.add("row");
-  centers.itemListElement.forEach((center) => {console.log(center)
+  centers.itemListElement.forEach((center) => {
       const col = document.createElement("div");
       col.classList.add("col-lg-3", "col-md-6");
 
@@ -153,7 +173,6 @@ function createSidebar(center) {
   map.loading = 'lazy';
   map.referrerpolicy = 'no-referrer-when-downgrade';
   container.appendChild(map);
-
 }
 
 
@@ -194,7 +213,6 @@ function callWeatherAPI(lat, lon){
                 clearHTML();
                 showWeather(dataJSON);
             }
-            //console.log(dataJSON);
         })
         .catch(error => {
             console.log(error);
@@ -221,7 +239,6 @@ function showWeather(data){
 }
 
 function showError(message){
-    //console.log(message);
     const alert = document.createElement('p');
     alert.classList.add('alert-message');
     alert.innerHTML = message;
