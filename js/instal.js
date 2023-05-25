@@ -49,7 +49,7 @@ function displayCenters() {
       );
 
       const img = document.createElement("img");
-      img.classList.add("img-fluid");
+      img.classList.add("img-fluid", "centers-img");
       img.setAttribute("src", center.image);
       img.setAttribute("alt", "");
 

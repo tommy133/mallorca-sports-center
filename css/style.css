@@ -9711,9 +9711,6 @@ h6,
 }
 
 
-
-
-
 .dropbtn {
   background-color: red;
   color: white;
@@ -9885,3 +9882,6 @@ h6,
   margin-right: 5px;
 }
 
+.centers-img {
+  height: 200px;
+}
