@@ -33,6 +33,13 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      #map {
+        height: 700px;
+        width: 70%;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -89,23 +96,7 @@
     </div>
     <!-- Header End -->
 
-    <!-- Pricing Start -->
-    <div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="row">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.9512283747886!2d2.6538755156312592!3d39.60578111248108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793973f68da73%3A0x2e3c4056d52b07c!2sIndoorwall%20Mallorca!5e0!3m2!1ses!2ses!4v1680640301723!5m2!1ses!2ses"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
+    <center><div id="map"></div></center>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary back-to-top"
@@ -129,5 +120,21 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmujnroAI4oHwpPNNdQRad77vsnE3_AVs&callback=initMap" async defer></script>
+    <script>
+      function initMap() {
+        var coordinates = { lat: 39.7211000, lng: 2.9109300 }; // Replace with your desired coordinates
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: coordinates,
+          zoom: 12
+        });
+
+        var marker = new google.maps.Marker({
+          position: coordinates,
+          map: map
+        });
+      }
+    </script>
   </body>
 </html>

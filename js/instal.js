@@ -194,11 +194,6 @@ function detectarCambioTamanioVentana() {
     });
 }
 
-
-
-
-
-
 function callWeatherAPI(lat, lon){
     const url = "https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid=e443226be243e85601ebdf922d9574b7";
 
@@ -252,6 +247,20 @@ function showError(message){
 function kelvinToCentigrade(temp){
     return parseInt(temp - 273.15);
 }
+
+function initMap() {
+    var coordinates = { lat: 39.7211000, lng: 2.9109300 }; // Replace with your desired coordinates
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: coordinates,
+      zoom: 12
+    });
+
+    var marker = new google.maps.Marker({
+      position: coordinates,
+      map: map
+    });
+  }
 
 function clearHTML(){
     result.innerHTML = '';
