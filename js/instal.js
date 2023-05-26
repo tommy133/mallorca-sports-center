@@ -163,16 +163,20 @@ function createSidebar(center) {
   form = document.querySelector('.get-weather');
   callWeatherAPI(center.geo.latitude, center.geo.longitude);
   
-  const map = document.createElement('iframe');
-  const embedUrl = `https://www.google.com/maps/embed/v1/view?key=AIzaSyBmujnroAI4oHwpPNNdQRad77vsnE3_AVs&center=${center.geo.latitude},${center.geo.longitude}&zoom=15`;
-  map.src = embedUrl;
-  map.width = '600';
-  map.height = '450';
-  map.style.border = '0';
-  map.allowFullscreen = true;
-  map.loading = 'lazy';
-  map.referrerpolicy = 'no-referrer-when-downgrade';
-  container.appendChild(map);
+
+
+const iframe = document.createElement('iframe');
+const videoUrl = 'https://www.youtube.com/embed/EAaXlbl_uig';
+
+iframe.src = videoUrl;
+iframe.width = '600';
+iframe.height = '450';
+iframe.style.border = '0';
+iframe.allowFullscreen = true;
+iframe.loading = 'lazy';
+iframe.referrerPolicy = 'no-referrer-when-downgrade';
+
+container.appendChild(iframe);
 }
 
 
