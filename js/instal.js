@@ -162,17 +162,14 @@ function createSidebar(center) {
   result = document.querySelector('.result');
   form = document.querySelector('.get-weather');
   callWeatherAPI(center.geo.latitude, center.geo.longitude);
-  
-  const map = document.createElement('iframe');
-  const embedUrl = `https://www.google.com/maps/embed/v1/view?key=AIzaSyBmujnroAI4oHwpPNNdQRad77vsnE3_AVs&center=${center.geo.latitude},${center.geo.longitude}&zoom=15`;
-  map.src = embedUrl;
+  /*
+  const map = document.createElement('div');
+  const Url = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBmujnroAI4oHwpPNNdQRad77vsnE3_AVs&callback=initMap`;
+  map.src = Url;
   map.width = '600';
   map.height = '450';
-  map.style.border = '0';
-  map.allowFullscreen = true;
-  map.loading = 'lazy';
-  map.referrerpolicy = 'no-referrer-when-downgrade';
-  container.appendChild(map);
+
+  container.appendChild(map);*/
 }
 
 
@@ -228,9 +225,6 @@ function showWeather(data){
 
     result.appendChild(content);
 
-    console.log(name);
-    console.log(temp);
-    console.log(arr.icon); 
 }
 
 function showError(message){
