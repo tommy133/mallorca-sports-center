@@ -166,9 +166,11 @@ function createSidebar(center) {
 
 
 const iframe = document.createElement('iframe');
-const videoUrl = 'https://www.youtube.com/embed/EAaXlbl_uig';
+const videoUrl = center.subjectOf.video[0];
+const videoId = extractVideoId(videoUrl);
+const embedUrl = `https://www.youtube.com/embed/${videoId}`;
 
-iframe.src = videoUrl;
+iframe.src = embedUrl;
 iframe.width = '600';
 iframe.height = '450';
 iframe.style.border = '0';
@@ -256,6 +258,13 @@ function showError(message){
 function kelvinToCentigrade(temp){
     return parseInt(temp - 273.15);
 }
+
+// Function to extract the video ID from YouTube URL
+function extractVideoId(url) {
+    const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+    const match = url.match(regExp);
+    return (match && match[7].length === 11) ? match[7] : null;
+  }
 
 function clearHTML(){
     result.innerHTML = '';
