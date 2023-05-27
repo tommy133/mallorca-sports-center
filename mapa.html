@@ -33,6 +33,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
   </head>
 
   <body>
@@ -73,38 +74,21 @@
     </div>
     <!-- Navbar End -->
 
-    <!-- Header Start -->
-    <div
-      class="jumbotron jumbotron-fluid bg-jumbotron"
-      style="margin-bottom: 90px"
-    >
-      <div class="container text-center py-5">
-        <h3 class="text-white display-3 mb-4">Mapa</h3>
-        <div class="d-inline-flex align-items-center text-white">
-          <p class="m-0"><a class="text-white" href="">Home</a></p>
-          <i class="far fa-circle px-3"></i>
-          <p class="m-0">Map</p>
-        </div>
-      </div>
-    </div>
-    <!-- Header End -->
-
     <!-- Pricing Start -->
     <div class="container-fluid py-5">
       <div class="container py-5">
         <div class="row">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.9512283747886!2d2.6538755156312592!3d39.60578111248108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793973f68da73%3A0x2e3c4056d52b07c!2sIndoorwall%20Mallorca!5e0!3m2!1ses!2ses!4v1680640301723!5m2!1ses!2ses"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <label for="deporte-select">Selecciona un deporte:</label>
+          <select id="deporte-select">
+            <option value="Escalada">Escalada</option>
+            <option value="Pàdel">Pàdel</option>
+            <option value="Basket">Basket</option>
+            <!-- Agrega más opciones según los deportes disponibles -->
+          </select>
         </div>
       </div>
     </div>
+    <div id="map" class="d-flex justify-content-center"></div>
     <!-- Footer End -->
 
     <!-- Back to Top -->
@@ -129,5 +113,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+      ({key: "AIzaSyALeDc_pKGK8cBmVo4UMlxjeQCtWwxVbsE", v: "weekly"});</script>
+    <script src="js/mapa.js"></script>
+
   </body>
 </html>

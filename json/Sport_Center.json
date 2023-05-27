@@ -54,7 +54,7 @@
                     "postalCode": "07004",
                     "streetAddress": "Jaume Ferran Nº 72"
                 },
-                "latitude": 339.58414,
+                "latitude": 39.58414,
                 "longitude":2.66030
             },
             "contactPoint": {
@@ -144,7 +144,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 0,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "padelboxsantamaria@gmail.com",
             "telephone": "971621647",
             "name": "Pàdel Box",
@@ -179,7 +179,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 1,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "info@padelportitxol.com",
             "telephone": "682051303",
             "name": "Pádel Portitxol",
@@ -217,7 +217,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 2,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "centralgoin@gmail.com",
             "telephone": "971604161, 640149503",
             "name": "Padel GoIn",
@@ -255,7 +255,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 3,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "infosacabana@gmail.com",
             "telephone": " 971794166",
             "name": "Padel Sa Cabana",
@@ -293,7 +293,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 4,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "garaualvarezjoan@gmail.com",
             "telephone": "605507762",
             "name": "Padel Alaró",
@@ -331,7 +331,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 5,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "xisco.quesada79@gmail.com",
             "telephone": "674588580",
             "name": "XX Padel Club Marratxi",
@@ -369,7 +369,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 6,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "info@palmaracketclub.es",
             "telephone": "971736319",
             "name": "Palma Racket Club",
@@ -407,7 +407,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 7,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "padelalcudia@hotmail.com",
             "telephone": "625 84 91 97",
             "name": "Alcudia Padel",
@@ -445,7 +445,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 8,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "palmapls@lasallevp.es",
             "telephone": "971606382",
             "name": "Padel La Salle",
@@ -480,7 +480,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 9,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "info@palmapadel.es",
             "telephone": "971254730",
             "name": "Palma Padel",
@@ -515,7 +515,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 10,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "info (@) pinspadelclub.es",
             "telephone": "971450574",
             "name": "Pins Pàdel Club",
@@ -550,7 +550,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 11,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "info@padelclubmallorca.com ",
             "telephone": "669599012",
             "name": "Padel Club Mallorca",
@@ -585,7 +585,7 @@
         {
             "@type": "sport_centers",
             "@identifier": 12,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "",
             "telephone": "971432305",
             "name": "Padel Factory ",
@@ -619,7 +619,7 @@
         },{
             "@type": "sport_centers",
             "@identifier": 13,
-            "tipusE":"Padel",
+            "tipusE":"Pàdel",
             "email": "",
             "telephone": "971127520",
             "name": "Fit Point",
