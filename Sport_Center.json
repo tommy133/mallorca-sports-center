@@ -1,0 +1,902 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "itemList",
+    "itemListElement": [
+        {
+            "@type": "sport_centers",
+            "@identifier": 0,
+            "tipusE":"Escalada",
+            "subtipus": "instalacions",
+            "email": "esrocodrom@gmail.com",
+            "telephone": "971963044",
+            "name": "esRocodrom",
+            "url": "https://esrocodrom.com/",
+            "schedule": "De lunes a viernes de 8:30 a 22:00, fines de semana de 8:30 a 14:00",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Inca",
+                    "postalCode": "07300",
+                    "streetAddress": "Mandrava, 107"
+                },
+                "latitude": 39.7211000,
+                "longitude":2.9109300
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "vivagym@gmail.com",
+                "telephone": "623434567"
+            },
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/JPG/esRocodrom.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=cCxivEJeJqY"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 1,
+            "tipusE":"Escalada",
+            "subtipus": "instalacions",
+            "email": "rocodromescau@gmail.com",
+            "telephone": "871531093",
+            "name": "ES CAU",
+            "url": "https://es.rocodromescau.com/",
+            "schedule": "DE LUNES A SÁBADO DE 9:00-22:00",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma de Mallorca",
+                    "postalCode": "07004",
+                    "streetAddress": "Jaume Ferran Nº 72"
+                },
+                "latitude": 39.58414,
+                "longitude":2.66030
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "rocodromescau@gmail.com",
+                "telephone": "871 531 093"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/EsCau.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=xiO9cGaGkeA"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 2,
+            "tipusE":"Escalada",
+            "subtipus": "instalacions",
+            "email": "mallorca@indoorwall.com",
+            "telephone": "971424840",
+            "name": "Indoorwall",
+            "url": "https://www.indoorwall.com/centros-indoorwall-rocodromos/indoorwall-mallorca/",
+            "schedule": "Lunes a viernes de 9h a 22h Sábados y domingos de 10h a 20h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma de Mallorca",
+                    "postalCode": "07009",
+                    "streetAddress": "Gremi Corredors, 39"
+                },
+                "latitude": 39.60584,
+                "longitude":2.65608
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "mallorca@indoorwall.com",
+                "telephone": "971424840"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/IndoorWall.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://fb.watch/kwQ4JE46xf/"
+                ]
+            }
+        },{
+            "@type": "sport_centers",
+            "@identifier": 3,
+            "tipusE":"Escalada",
+            "subtipus": "instalacions",
+            "email": "tramuntanadventures@gmail.com",
+            "telephone": "636727975",
+            "name": "Tramuntana Adventures Mallorca",
+            "url": "https://tramuntanaadventur.wixsite.com/tramuntanaadventures",
+            "schedule": "De lunes a sábado de 8h a 20h, domingos de 8h a 14h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Estellencs",
+                    "postalCode": " 07192",
+                    "streetAddress": "Diseminado Carretera a Palma, 11"
+                },
+                "latitude": 39.656458, 
+                "longitude":2.498244
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "tramuntanadventures@gmail.com",
+                "telephone": "636727975"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/Tramuntana.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://youtu.be/sVgNLfp4szY"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 0,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "padelboxsantamaria@gmail.com",
+            "telephone": "971621647",
+            "name": "Pàdel Box",
+            "url": "http://www.padelboxsantamaria.com/",
+            "schedule": "",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Santa Maria del Camí",
+                    "postalCode": "07320",
+                    "streetAddress": "Son Llaüt"
+                },
+                "latitude": 39.65534,
+                "longitude":2.79184
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "padelboxsantamaria@gmail.com",
+                "telephone": "971621647"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/PadelBox.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=bzx071hh6uc"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 1,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "info@padelportitxol.com",
+            "telephone": "682051303",
+            "name": "Pádel Portitxol",
+            "url": "http://padelportitxol.com/",
+            "schedule": "De lunes a Domingo de 8h a 23h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07006",
+                    "streetAddress": "Carrer Cuba,9"
+                },
+                "latitude": 39.56274, 
+                "longitude":2.67431
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@padelportitxol.com",
+                "telephone": "682051303"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/Portixol.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.facebook.com/watch/?v=961290820947358"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 2,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "centralgoin@gmail.com",
+            "telephone": "971604161, 640149503",
+            "name": "Padel GoIn",
+            "url": "http://www.padelgoin.com/",
+            "schedule": "De lunes a Viernes de 9h a 23h, Sábados de 9h a 14h y 17h a 21h ,Domingos de 10h a 14h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Marratxí",
+                    "postalCode": "07141",
+                    "streetAddress": "Carrer Gerrers,13"
+                },
+                "latitude": 39.62141,
+                "longitude":2.71631
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "centralgoin@gmail.com",
+                "telephone": "971604161 , 640149503"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/GoIn.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.facebook.com/jaumemartorell97/videos/10201432728795592"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 3,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "infosacabana@gmail.com",
+            "telephone": " 971794166",
+            "name": "Padel Sa Cabana",
+            "url": "https://www.facebook.com/sacabanapadel/?locale=es_ES",
+            "schedule": "De lunes a Domingo de 9h a 23h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Es Pont d'Inca",
+                    "postalCode": "07141 ",
+                    "streetAddress": "sa Sol·lera, 2,"
+                },
+                "latitude": 39.60682, 
+                "longitude":2.69207
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "infosacabana@gmail.com",
+                "telephone": " 971794166"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/padelsacabana.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=gyu02dJGZKI"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 4,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "garaualvarezjoan@gmail.com",
+            "telephone": "605507762",
+            "name": "Padel Alaró",
+            "url": "https://www.facebook.com/PadelAlaro/",
+            "schedule": "De lunes a Domingo de 9h a 23h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Alaró",
+                    "postalCode": "07340",
+                    "streetAddress": "Avenida constitucion, 36"
+                },
+                "latitude": 39.70178,
+                "longitude":2.79323 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "garaualvarezjoan@gmail.com",
+                "telephone": "605507762"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/PadelAlaro.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=S5pKqiaGXy0"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 5,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "xisco.quesada79@gmail.com",
+            "telephone": "674588580",
+            "name": "XX Padel Club Marratxi",
+            "url": "https://xxpadel.com/",
+            "schedule": "De lunes a Domingo de 9h a 23h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Es Pont d'Inca",
+                    "postalCode": "07141",
+                    "streetAddress": " Carrer Gerani, 21"
+                },
+                "latitude": 39.61633, 
+                "longitude": 2.69395
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "xisco.quesada79@gmail.com",
+                "telephone": "674588580"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/freedomwellnes.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=TjJ7Im_VpEM"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 6,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "info@palmaracketclub.es",
+            "telephone": "971736319",
+            "name": "Palma Racket Club",
+            "url": "https://www.palmaracketclub.es/",
+            "schedule": "De lunes a Domingo de 9h a 23h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07013",
+                    "streetAddress": "Carrer de Galícia, 7"
+                },
+                "latitude": 39.58166, 
+                "longitude": 2.62509 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@palmaracketclub.es",
+                "telephone": "971736319"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/PalmaRacket.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=23SAF1NMWmA"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 7,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "padelalcudia@hotmail.com",
+            "telephone": "625 84 91 97",
+            "name": "Alcudia Padel",
+            "url": "https://www.facebook.com/alejandro.morillomunoz.39",
+            "schedule": "De lunes a Domingo de 9h a 22h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Alcúdia",
+                    "postalCode": "07400",
+                    "streetAddress": "Via de Corneli Àtic"
+                },
+                "latitude": 39.84460,  
+                "longitude": 3.12305 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "padelalcudia@hotmail.com",
+                "telephone": "625849197"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/AlcudiaPadel.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=8FFoPH9tQ3s"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 8,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "palmapls@lasallevp.es",
+            "telephone": "971606382",
+            "name": "Padel La Salle",
+            "url": "https://www.poliesportiulasallepalma.es/instalaciones-de-padel/",
+            "schedule": "De lunes a Viernes de 9h a 22:30h y Sábados de 9h a 14h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "latitude": 39.58353, 
+                "longitude": 2.61811 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "palmapls@lasallevp.es",
+                "telephone": "971606382"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/PadelLaSalle.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.facebook.com/padellasallepalma/videos"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 9,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "info@palmapadel.es",
+            "telephone": "971254730",
+            "name": "Palma Padel",
+            "url": "https://palmapadel.es/",
+            "schedule": "De lunes a Viernes de 9h a 23h,Sábados y Domingos de 9h a 22h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07011 ",
+                    "streetAddress": "Carrer de Castellà la Manxa, 6"
+                },
+                "latitude": 39.587079, 
+                "longitude": 2.622504  
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@palmapadel.es",
+                "telephone": "971254730"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/palmapadel.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=oBhV5FiWRS4&t=52s"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 10,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "info (@) pinspadelclub.es",
+            "telephone": "971450574",
+            "name": "Pins Pàdel Club",
+            "url": "https://pinspadelclub.com/es/",
+            "schedule": "De lunes a viernes de 9h a 23h, sábados y domingos de 9h a 21h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07014",
+                    "streetAddress": "Calle Lluis Ferbal, 7"
+                },
+                "latitude": 39.5755370, 
+                "longitude": 2.6190885 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info (@) pinspadelclub.es",
+                "telephone": "971450574"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/Pinspadel.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=mJNW95xhNKI"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 11,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "info@padelclubmallorca.com ",
+            "telephone": "669599012",
+            "name": "Padel Club Mallorca",
+            "url": "https://padelclubmallorca.com/",
+            "schedule": "De lunes a viernes de 8:30h a 23h, sábados y domingos de 9h a 21h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07007",
+                    "streetAddress": "Carrer George Sand, 4,"
+                },
+                "latitude": 39.5768141, 
+                "longitude": 2.6791072 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@padelclubmallorca.com ",
+                "telephone": "669599012"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/PadelClubMallorca.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://padelclubmallorca.com/wp-content/uploads/2022/05/padelclubmallorca.mp4"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 12,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "",
+            "telephone": "971432305",
+            "name": "Padel Factory ",
+            "url": "https://padelfactory.es/",
+            "schedule": "De lunes a viernes de 8:30h a 00h, sábados y domingos de 9h a 22h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07009",
+                    "streetAddress": "C. Gremi Teixidors, 3"
+                },
+                "latitude": 39.6001329, 
+                "longitude": 2.6725049   
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "",
+                "telephone": "971432305"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/PadelFactory.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=kH72WJ8WsZg"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 13,
+            "tipusE":"Padel",
+            "subtipus": "instalacions",
+            "email": "",
+            "telephone": "971127520",
+            "name": "Fit Point",
+            "url": "https://fitpointpadel.es/",
+            "schedule": "De lunes a viernes de 8:30h a 00h, sábados y domingos de 9h a 22h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07007",
+                    "streetAddress": "Polígono de Son Morro, Carrer Son Morro, 10"
+                },
+                "latitude": 39.5745405, 
+                "longitude": 2.6894214    
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "",
+                "telephone": "971127520"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/FitPoint.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://fb.watch/kx0BtOXNWH/"
+                ]
+            }
+            
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 0,
+            "tipusE":"Basket",
+            "subtipus": "instalacions",
+            "email": "club@cblasalle.com (FBIB/FEB, árbitros y clubes),oficina@cblasalle.com (matrícula, cuotas, datos bancarios, documentación),coordinacion@cblasalle.com (incorporación jugadores/entrenadores),web@cblasalle.com",
+            "telephone": "971790513",
+            "name": "Club de bàsquet La Salle",
+            "url": "https://www.cblasalle.com/",
+            "schedule": "De lunes a jueves de 16:45h a 19:15h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07013",
+                    "streetAddress": "Camí de Son Rapinya, 29"
+                },
+                "latitude": 39.5830569,  
+                "longitude": 2.623811 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "club@cblasalle.com (FBIB/FEB, árbitros y clubes),oficina@cblasalle.com (matrícula, cuotas, datos bancarios, documentación),coordinacion@cblasalle.com (incorporación jugadores/entrenadores),web@cblasalle.com ",
+                "telephone": "971790513"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/BasquetLaSalle.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.cblasalle.com/images/web/20180608_Clausura.mp4"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 1,
+            "tipusE":"Basket",
+            "subtipus": "instalacions",
+            "email": "clubbasquetcampos@gmail.com",
+            "telephone": "617853515",
+            "name": "CLUB BASQUET CAMPOS",
+            "url": "https://basquetcampos.com",
+            "schedule": "De lunes a Domingo de 16h a 22:30h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Campos",
+                    "postalCode": "07630",
+                    "streetAddress": "Camí Vell de Ciutat, 1, "
+                },
+                "latitude": 39.4343002,  
+                "longitude": 3.0103505 
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "clubbasquetcampos@gmail.com",
+                "telephone": "617853515"
+            },
+            "image": [
+                "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/324583712_552864486745943_6073257796346994265_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=iyrDNBpEbnAAX8ZGQ_r&_nc_ht=scontent-mad2-1.xx&oh=00_AfDuKf1eEIq_OQd-ILgbTpalS9ndoP0VjFYrC7x9mMenzQ&oe=64773A08"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "url"
+                ],
+                "video": [
+                    "https://www.facebook.com/watch/?v=668973004633497"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 2,
+            "tipusE":"Basket",
+            "subtipus": "instalacions",
+            "email": " baloncestosoncotoner@gmail.com",
+            "telephone": "662679473 ",
+            "name": "CB SON COTONER",
+            "url": "https://cbsoncotoner.es/",
+            "schedule": "",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07011",
+                    "streetAddress": "Carrer de Juan Gris, 2"
+                },
+                "latitude": 39.5855201, 
+                "longitude": 2.6335328
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": " baloncestosoncotoner@gmail.com",
+                "telephone": "662679473"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/SonCotoner.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=a7FzpXOGtUU"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 3,
+            "tipusE":"Basket",
+            "subtipus": "instalacions",
+            "email": "federacio@fbib.es",
+            "telephone": "971730503",
+            "name": "Federació de Bàsquet de les Illes Balears",
+            "url": "https://www.fbib.es/",
+            "schedule": "De lunes a viernes de 9h a 13h y 16h a 20h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07014",
+                    "streetAddress": "Carrer de Bernareggi, 6"
+                },
+                "latitude": 39.572475, 
+                "longitude": 2.63338  
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "federacio@fbib.es",
+                "telephone": "971730503"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/BasquetIllesBalears.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://www.youtube.com/watch?v=Rzmf84XgoHk"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 4,
+            "tipusE":"Basket",
+            "subtipus": "instalacions",
+            "email": " sjo@santjosepobrer.es",
+            "telephone": "971473308",
+            "name": "Club Sant Josep",
+            "url": "https://www.santjosepobrer.es/es/extra/sports-club",
+            "schedule": "lunes, martes, miercoles y viernes de 16h a 17h",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07008",
+                    "streetAddress": "Carrer de Sebastià Arrom, 3"
+                },
+                "latitude": 39.5803427, 
+                "longitude": 2.6822407   
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "sjo@santjosepobrer.es",
+                "telephone": "971473308"
+            },
+            "image": [
+                "http://localhost/mallorca-sports-center-master/img/JPG/SantJosep.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "video": [
+                    "https://twitter.com/i/status/792721790569177088"
+                ]
+            }
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 0,
+            "name": "Circuit",
+            "tipusE": "padel",
+            "subtipus": "event",
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NM3FqjuWIzDDjrpcK9T/%3Aembed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/circuit.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 1,
+            "name": "Benefico",
+            "tipusE": "padel",
+            "subtipus": "event",
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NU15QXd06OPJrFRdqv7/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/benefico.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 2,
+            "name": "Mediolanum",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NS-AUAN8A2AchlIVuy-/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/mediolanum.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 3,
+            "name": "U3",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NUO5-hfYjQCPTwSlpex/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/U3.jpg"
+            ]
+         }
+    ]
+}
