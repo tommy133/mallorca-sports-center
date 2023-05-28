@@ -897,6 +897,116 @@
             "image": [
                  "http://localhost/mallorca-sports-center-master/img/events/U3.jpg"
             ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 4,
+            "name": "Torneo Wilson",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NUG-4yFzrwvQc6Yc-Li/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/U3.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 5,
+            "name": "Adidas",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NURZVXXsuq8wu0TK3hC/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/AdidasTour.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 6,
+            "name": "Torneo Aniversario",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NSA4ohprTsz-TOfLJHI/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Aniversario.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 7,
+            "name": "Harlem Globetrotters",
+            "tipusE": "Basket",
+            "subtipus": "event",           
+            "url": "https://www.elcorteingles.es/entradas/deporte/entradas-harlem-globetrotters-mallorca/",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Harlem.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 8,
+            "name": "Campus escalada",
+            "tipusE": "Escalada",
+            "subtipus": "event",           
+            "url": "https://www.facebook.com/photo/?fbid=945741356387854&set=pcb.945741446387845&locale=es_ES",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Campus.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 9,
+            "name": "Curso escalada",
+            "tipusE": "Escalada",
+            "subtipus": "event",           
+            "url": "https://www.facebook.com/photo/?fbid=618541826984839&set=a.449650420540648&locale=es_ES",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Curso.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 10,
+            "name": "Torneo Baum",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://megasportcentre.com/torneo-padel-baum-9-al-18-de-junio/",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Baum.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 11,
+            "name": "Torneo MSC Cruceros",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NUc-qgfrMJBgtM8EqMj/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Crucero.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 12,
+            "name": "Torneo Verano",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NVAVKt-4JFLNcApE2Rh/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/Verano.jpg"
+            ]
+         },
+         {
+            "@type": "sport_centers",
+            "@identifier": 13,
+            "name": "Torneo FinestBox",
+            "tipusE": "padel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NRXXUzJnPU3htyG60Fv/:embed",
+            "image": [
+                 "http://localhost/mallorca-sports-center-master/img/events/FinestBox.jpg"
+            ]
          }
     ]
 }
