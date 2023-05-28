@@ -163,16 +163,22 @@ function createSidebar(center) {
   form = document.querySelector('.get-weather');
   callWeatherAPI(center.geo.latitude, center.geo.longitude);
   
-  const map = document.createElement('iframe');
-  const embedUrl = `https://www.google.com/maps/embed/v1/view?key=AIzaSyBmujnroAI4oHwpPNNdQRad77vsnE3_AVs&center=${center.geo.latitude},${center.geo.longitude}&zoom=15`;
-  map.src = embedUrl;
-  map.width = '600';
-  map.height = '450';
-  map.style.border = '0';
-  map.allowFullscreen = true;
-  map.loading = 'lazy';
-  map.referrerpolicy = 'no-referrer-when-downgrade';
-  container.appendChild(map);
+
+
+const iframe = document.createElement('iframe');
+const videoUrl = center.subjectOf.video[0];
+const videoId = extractVideoId(videoUrl);
+const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
+iframe.src = embedUrl;
+iframe.width = '600';
+iframe.height = '450';
+iframe.style.border = '0';
+iframe.allowFullscreen = true;
+iframe.loading = 'lazy';
+iframe.referrerPolicy = 'no-referrer-when-downgrade';
+
+container.appendChild(iframe);
 }
 
 
@@ -252,6 +258,13 @@ function showError(message){
 function kelvinToCentigrade(temp){
     return parseInt(temp - 273.15);
 }
+
+// Function to extract the video ID from YouTube URL
+function extractVideoId(url) {
+    const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+    const match = url.match(regExp);
+    return (match && match[7].length === 11) ? match[7] : null;
+  }
 
 function clearHTML(){
     result.innerHTML = '';
