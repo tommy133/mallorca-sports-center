@@ -1,5 +1,7 @@
 let map;
+let selectedMarker;
 let markers = [];
+let hotelDistances = [];
 
 async function initMap() {
   const { Map, InfoWindow, Icon } = await google.maps.importLibrary("maps");
@@ -43,6 +45,7 @@ async function initMap() {
         });
 
         marker.addListener("click", () => {
+          selectedMarker = marker;
           const content = `
             <div>
               <img src="${foto}" alt="Foto" style="width: 200px;">
@@ -98,6 +101,14 @@ async function hotelesMasCerca(selectedMarkerPosition) {
           icon: icon, 
         });
 
+        const hotelDistance = {
+          name: nom,
+          distance: calculateDistance(selectedMarker,markerHotel),
+          marker: markerHotel
+        }
+
+        hotelDistances.push(hotelDistance);
+
         markerHotel.addListener("click", () => {
           const content = `
             <div>
@@ -109,12 +120,53 @@ async function hotelesMasCerca(selectedMarkerPosition) {
           infoWindow.open(map, markerHotel);
         });
       });
+      // Sort the array by distance
+    hotelDistances.sort(compareDistance);
+
+    //una vegada ordenats mos petam es markers menos es més propers
+
+    for (let i = 5; i < hotelDistances.length; i++) {
+      hotelDistances[i].marker.setMap(null); 
+    }
+    
+    
     })
     .catch((error) => {
       console.error("Error al cargar el archivo JSON:", error);
     });
+
+    
 }
 
+// Function to calculate the distance between two markers
+function calculateDistance(marker1, marker2) {
+  const lat1 = marker1.getPosition().lat();
+  const lng1 = marker1.getPosition().lng();
+  const lat2 = marker2.getPosition().lat();
+  const lng2 = marker2.getPosition().lng();
 
+  const R = 6371; // Radius of the earth in kilometers
+  const dLat = deg2rad(lat2 - lat1); // Convert latitude difference to radians
+  const dLon = deg2rad(lng2 - lng1); // Convert longitude difference to radians
+
+  // Haversine formula
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const distance = R * c; // Distance in kilometers
+
+  return distance;
+}
+
+// Function to convert degrees to radians
+function deg2rad(deg) {
+  return deg * (Math.PI / 180);
+}
+
+// Custom comparison function for sorting by distance
+function compareDistance(a, b) {
+  return a.distance - b.distance;
+}
 
 initMap();
