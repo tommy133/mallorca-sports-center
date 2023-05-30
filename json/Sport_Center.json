@@ -6,6 +6,7 @@
             "@type": "sport_centers",
             "@identifier": 0,
             "tipusE":"Escalada",
+            "subtipus": "instalacions",
             "email": "esrocodrom@gmail.com",
             "telephone": "971963044",
             "name": "esRocodrom",
@@ -28,7 +29,7 @@
                 "telephone": "623434567"
             },
             "image": [
-                "https://esrocodrom.com/botiga/wp-content/uploads/2017/08/cropped-esrocodrom-logo-web-2.png"
+                 "img/JPG/esRocodrom.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -41,6 +42,7 @@
             "@type": "sport_centers",
             "@identifier": 1,
             "tipusE":"Escalada",
+            "subtipus": "instalacions",
             "email": "rocodromescau@gmail.com",
             "telephone": "871531093",
             "name": "ES CAU",
@@ -63,7 +65,7 @@
                 "telephone": "871 531 093"
             },
             "image": [
-                "https://static.wixstatic.com/media/17ec2d_fc05109bc52f4b349f1a7b42d7a57ba8~mv2.jpg/v1/fill/w_68,h_68,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17ec2d_fc05109bc52f4b349f1a7b42d7a57ba8~mv2.jpg"
+                "img/JPG/EsCau.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -76,6 +78,7 @@
             "@type": "sport_centers",
             "@identifier": 2,
             "tipusE":"Escalada",
+            "subtipus": "instalacions",
             "email": "mallorca@indoorwall.com",
             "telephone": "971424840",
             "name": "Indoorwall",
@@ -98,21 +101,22 @@
                 "telephone": "971424840"
             },
             "image": [
-                "https://www.indoorwall.com/wp-content/uploads/2022/06/V6A6942.jpg"
+                "img/JPG/IndoorWall.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://fb.watch/kwQ4JE46xf/"
+                    "https://youtu.be/5MJTMoNQKY0"
                 ]
             }
         },{
             "@type": "sport_centers",
             "@identifier": 3,
             "tipusE":"Escalada",
+            "subtipus": "instalacions",
             "email": "tramuntanadventures@gmail.com",
             "telephone": "636727975",
-            "name": "Tramuntana Adventures Mallorcaz",
+            "name": "Tramuntana Adventures Mallorca",
             "url": "https://tramuntanaadventur.wixsite.com/tramuntanaadventures",
             "schedule": "De lunes a sábado de 8h a 20h, domingos de 8h a 14h",
             "geo": {
@@ -132,7 +136,7 @@
                 "telephone": "636727975"
             },
             "image": [
-                "https://lh5.googleusercontent.com/p/AF1QipN8ebtD9BjvcHKNLPsubkszCQB40LiYz59mDc0l=w260-h175-n-k-no"
+                "img/JPG/Tramuntana.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -145,6 +149,7 @@
             "@type": "sport_centers",
             "@identifier": 0,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "padelboxsantamaria@gmail.com",
             "telephone": "971621647",
             "name": "Pàdel Box",
@@ -167,7 +172,7 @@
                 "telephone": "971621647"
             },
             "image": [
-                "https://www.facebook.com/photo/?fbid=494491816013272&set=a.494491802679940"
+                "img/JPG/PadelBox.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -180,9 +185,10 @@
             "@type": "sport_centers",
             "@identifier": 1,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "info@padelportitxol.com",
             "telephone": "682051303",
-            "name": "Pádel Portitxol",
+            "name": "Pàdel Portitxol",
             "url": "http://padelportitxol.com/",
             "schedule": "De lunes a Domingo de 8h a 23h",
             "geo": {
@@ -202,7 +208,7 @@
                 "telephone": "682051303"
             },
             "image": [
-                "http://padelportitxol.com/wp-content/uploads/2022/06/fotoweb21-300x205.jpg"
+                "img/JPG/Portixol.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -210,7 +216,7 @@
                     "url"
                 ],
                 "video": [
-                    "https://www.facebook.com/watch/?v=961290820947358"
+                    "https://youtu.be/zMlCHT0Sfss"
                 ]
             }
         },
@@ -218,9 +224,10 @@
             "@type": "sport_centers",
             "@identifier": 2,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "centralgoin@gmail.com",
             "telephone": "971604161, 640149503",
-            "name": "Padel GoIn",
+            "name": "Pàdel GoIn",
             "url": "http://www.padelgoin.com/",
             "schedule": "De lunes a Viernes de 9h a 23h, Sábados de 9h a 14h y 17h a 21h ,Domingos de 10h a 14h",
             "geo": {
@@ -240,7 +247,7 @@
                 "telephone": "971604161 , 640149503"
             },
             "image": [
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100052188320886&tbnid=AsSn0Zz0x8f_JM&vet=12ahUKEwj0mszL_er-AhVwvicCHVutARMQMygCegQIARB2..i&imgrefurl=https%3A%2F%2Fm.facebook.com%2Fpadelgoin%2F&docid=G_8TPO9y37U5BM&w=1080&h=828&q=padel%20goin&ved=2ahUKEwj0mszL_er-AhVwvicCHVutARMQMygCegQIARB2"
+                "img/JPG/GoIn.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -248,7 +255,7 @@
                     "url"
                 ],
                 "video": [
-                    "https://www.facebook.com/jaumemartorell97/videos/10201432728795592"
+                    "https://youtu.be/QLAXxKk75hg"
                 ]
             }
         },
@@ -256,10 +263,11 @@
             "@type": "sport_centers",
             "@identifier": 3,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "infosacabana@gmail.com",
             "telephone": " 971794166",
-            "name": "Padel Sa Cabana",
-            "url": "",
+            "name": "Pàdel Sa Cabana",
+            "url": "https://www.facebook.com/sacabanapadel/?locale=es_ES",
             "schedule": "De lunes a Domingo de 9h a 23h",
             "geo": {
                 "@type": "GeoCoordinates",
@@ -278,7 +286,7 @@
                 "telephone": " 971794166"
             },
             "image": [
-                ""
+                "img/JPG/padelsacabana.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -286,7 +294,7 @@
                     "url"
                 ],
                 "video": [
-                    "https://www.youtube.com/watch?v=gyu02dJGZKI"
+                    "https://youtu.be/-ics7-DEzpA"
                 ]
             }
         },
@@ -294,9 +302,10 @@
             "@type": "sport_centers",
             "@identifier": 4,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "garaualvarezjoan@gmail.com",
             "telephone": "605507762",
-            "name": "Padel Alaró",
+            "name": "Pàdel Alaró",
             "url": "https://www.facebook.com/PadelAlaro/",
             "schedule": "De lunes a Domingo de 9h a 23h",
             "geo": {
@@ -316,7 +325,7 @@
                 "telephone": "605507762"
             },
             "image": [
-                "https://res.cloudinary.com/playtomic/image/upload/c_limit,w_1600/v1/pro/tenants/8119817d-d9fa-43cf-a6d7-47f46739dd49/padelsacabana_0001"
+                "img/JPG/PadelAlaro.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -324,7 +333,7 @@
                     "url"
                 ],
                 "video": [
-                    "https://www.youtube.com/watch?v=S5pKqiaGXy0"
+                    "https://youtu.be/aS2g3nv4gac"
                 ]
             }
         },
@@ -332,9 +341,10 @@
             "@type": "sport_centers",
             "@identifier": 5,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "xisco.quesada79@gmail.com",
             "telephone": "674588580",
-            "name": "XX Padel Club Marratxi",
+            "name": "XX Pàdel Club Marratxi",
             "url": "https://xxpadel.com/",
             "schedule": "De lunes a Domingo de 9h a 23h",
             "geo": {
@@ -354,7 +364,7 @@
                 "telephone": "674588580"
             },
             "image": [
-                "https://res.cloudinary.com/playtomic/image/upload/c_limit,w_1600/v1/pro/tenants/900d5bd4-7a74-41d1-bbeb-628020f73eaa/freedomwellness_0001"
+                "img/JPG/freedomwellnes.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -370,6 +380,7 @@
             "@type": "sport_centers",
             "@identifier": 6,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "info@palmaracketclub.es",
             "telephone": "971736319",
             "name": "Palma Racket Club",
@@ -392,7 +403,7 @@
                 "telephone": "971736319"
             },
             "image": [
-                "https://lh3.googleusercontent.com/p/AF1QipPXMvQSU-3S2OtxJ1VTdDJOfH6UK9w6DnYNDUAN=s1280-p-no-v1"
+                "img/JPG/PalmaRacket.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -408,9 +419,10 @@
             "@type": "sport_centers",
             "@identifier": 7,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "padelalcudia@hotmail.com",
             "telephone": "625 84 91 97",
-            "name": "Alcudia Padel",
+            "name": "Alcudia Pàdel",
             "url": "https://www.facebook.com/alejandro.morillomunoz.39",
             "schedule": "De lunes a Domingo de 9h a 22h",
             "geo": {
@@ -430,7 +442,7 @@
                 "telephone": "625849197"
             },
             "image": [
-                "https://pr1.nicelocal.es/0CN9_HU0a8-4Q881O1e6oQ/587x440,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2d0kJ2ASclhFJVzwj3hJlFozXyTF9hzhvBxQxaoBdRqryP2QfVBUXt6MLvSj67_NrQ"
+                "img/JPG/AlcudiaPadel.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -446,9 +458,10 @@
             "@type": "sport_centers",
             "@identifier": 8,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "palmapls@lasallevp.es",
             "telephone": "971606382",
-            "name": "Padel La Salle",
+            "name": "Pàdel La Salle",
             "url": "https://www.poliesportiulasallepalma.es/instalaciones-de-padel/",
             "schedule": "De lunes a Viernes de 9h a 22:30h y Sábados de 9h a 14h",
             "geo": {
@@ -468,12 +481,12 @@
                 "telephone": "971606382"
             },
             "image": [
-                "https://www.poliesportiulasallepalma.es/wp-content/uploads/2019/08/Padel-Inauguraci%C3%B3n-2006-2.jpg"
+                "img/JPG/PadelLaSalle.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://www.facebook.com/padellasallepalma/videos"
+                    "https://youtu.be/wAOEkaKIqe4"
                 ]
             }
         },
@@ -481,9 +494,10 @@
             "@type": "sport_centers",
             "@identifier": 9,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "info@palmapadel.es",
             "telephone": "971254730",
-            "name": "Palma Padel",
+            "name": "Palma Pàdel",
             "url": "https://palmapadel.es/",
             "schedule": "De lunes a Viernes de 9h a 23h,Sábados y Domingos de 9h a 22h",
             "geo": {
@@ -503,12 +517,12 @@
                 "telephone": "971254730"
             },
             "image": [
-                "https://palmapadel.es/images/Home-Hero.jpeg,https://palmapadel.es/images/home-hero-2.jpeg"
+                "img/JPG/palmapadel.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://www.youtube.com/watch?v=oBhV5FiWRS4&t=52s"
+                    "https://youtu.be/oBhV5FiWRS4"
                 ]
             }
         },
@@ -516,6 +530,7 @@
             "@type": "sport_centers",
             "@identifier": 10,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "info (@) pinspadelclub.es",
             "telephone": "971450574",
             "name": "Pins Pàdel Club",
@@ -538,12 +553,12 @@
                 "telephone": "971450574"
             },
             "image": [
-                "https://lh3.googleusercontent.com/p/AF1QipNXBvnoOPRj8TjBJayV6DTQlJHzJLmndp05Y8cR=s680-w680-h510"
+                "img/JPG/Pinspadel.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://www.youtube.com/watch?v=mJNW95xhNKI"
+                    "https://youtu.be/vRjWYSq9m7s"
                 ]
             }
         },
@@ -551,9 +566,10 @@
             "@type": "sport_centers",
             "@identifier": 11,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "info@padelclubmallorca.com ",
             "telephone": "669599012",
-            "name": "Padel Club Mallorca",
+            "name": "Pàdel Club Mallorca",
             "url": "https://padelclubmallorca.com/",
             "schedule": "De lunes a viernes de 8:30h a 23h, sábados y domingos de 9h a 21h",
             "geo": {
@@ -573,12 +589,12 @@
                 "telephone": "669599012"
             },
             "image": [
-                "https://padelclubmallorca.com/wp-content/uploads/2022/03/DJI_0076-scaled-400x284.jpg"
+                "img/JPG/PadelClubMallorca.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://padelclubmallorca.com/wp-content/uploads/2022/05/padelclubmallorca.mp4"
+                    "https://youtu.be/O71-yUdX9AQ"
                 ]
             }
         },
@@ -586,9 +602,10 @@
             "@type": "sport_centers",
             "@identifier": 12,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "",
             "telephone": "971432305",
-            "name": "Padel Factory ",
+            "name": "Pàdel Factory ",
             "url": "https://padelfactory.es/",
             "schedule": "De lunes a viernes de 8:30h a 00h, sábados y domingos de 9h a 22h",
             "geo": {
@@ -608,7 +625,7 @@
                 "telephone": "971432305"
             },
             "image": [
-                "https://lh5.googleusercontent.com/p/AF1QipPWWFGoDpWiX6I-zCdyK3iVfGpCoHlSSC-rPS-F=w408-h306-k-no"
+                "img/JPG/PadelFactory.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -616,10 +633,12 @@
                     "https://www.youtube.com/watch?v=kH72WJ8WsZg"
                 ]
             }
-        },{
+        },
+        {
             "@type": "sport_centers",
             "@identifier": 13,
             "tipusE":"Pàdel",
+            "subtipus": "instalacions",
             "email": "",
             "telephone": "971127520",
             "name": "Fit Point",
@@ -642,19 +661,21 @@
                 "telephone": "971127520"
             },
             "image": [
-                "https://reservas.fitpoint.es/Pages/images.ashx?id=f9b30483d0182489c4593f7117f727a5"
+                "img/JPG/FitPoint.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://fb.watch/kx0BtOXNWH/"
+                    "https://youtu.be/Y77-o5qSNTg"
                 ]
             }
+            
         },
         {
             "@type": "sport_centers",
             "@identifier": 0,
             "tipusE":"Basket",
+            "subtipus": "instalacions",
             "email": "club@cblasalle.com (FBIB/FEB, árbitros y clubes),oficina@cblasalle.com (matrícula, cuotas, datos bancarios, documentación),coordinacion@cblasalle.com (incorporación jugadores/entrenadores),web@cblasalle.com",
             "telephone": "971790513",
             "name": "Club de bàsquet La Salle",
@@ -677,12 +698,12 @@
                 "telephone": "971790513"
             },
             "image": [
-                "https://lh3.googleusercontent.com/p/AF1QipPyRJSsHQm48KpZGpwzKrvsSTNLZHKgUEe70PLu=s680-w680-h510"
+                "img/JPG/BasquetLaSalle.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://www.cblasalle.com/images/web/20180608_Clausura.mp4"
+                    "https://youtu.be/HI33UfANA1E"
                 ]
             }
         },
@@ -690,6 +711,7 @@
             "@type": "sport_centers",
             "@identifier": 1,
             "tipusE":"Basket",
+            "subtipus": "instalacions",
             "email": "clubbasquetcampos@gmail.com",
             "telephone": "617853515",
             "name": "CLUB BASQUET CAMPOS",
@@ -712,7 +734,7 @@
                 "telephone": "617853515"
             },
             "image": [
-                "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/316415851_578140210980015_4930335856301275665_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=TwCxOmkeDSUAX-bMQ0V&_nc_ht=scontent-mad2-1.xx&oh=00_AfAFM4RulIkhp77fSsx0pdeyMHn9cAYfaILsQHfeywRh7g&oe=64656591"
+                "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/324583712_552864486745943_6073257796346994265_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=iyrDNBpEbnAAX8ZGQ_r&_nc_ht=scontent-mad2-1.xx&oh=00_AfDuKf1eEIq_OQd-ILgbTpalS9ndoP0VjFYrC7x9mMenzQ&oe=64773A08"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -720,7 +742,7 @@
                     "url"
                 ],
                 "video": [
-                    "https://www.facebook.com/watch/?v=668973004633497"
+                    "https://youtu.be/qK9ns0r6hGE"
                 ]
             }
         },
@@ -728,6 +750,7 @@
             "@type": "sport_centers",
             "@identifier": 2,
             "tipusE":"Basket",
+            "subtipus": "instalacions",
             "email": " baloncestosoncotoner@gmail.com",
             "telephone": "662679473 ",
             "name": "CB SON COTONER",
@@ -750,12 +773,12 @@
                 "telephone": "662679473"
             },
             "image": [
-                "https://lh5.googleusercontent.com/p/AF1QipNLFrUgJmAYVK78pNPeyHnnJZIpHsPYwG8h8wF_=w408-h272-k-no"
+                "img/JPG/SonCotoner.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://www.youtube.com/watch?v=a7FzpXOGtUU"
+                    "https://youtu.be/Et7fEx69HdE"
                 ]
             }
         },
@@ -763,6 +786,7 @@
             "@type": "sport_centers",
             "@identifier": 3,
             "tipusE":"Basket",
+            "subtipus": "instalacions",
             "email": "federacio@fbib.es",
             "telephone": "971730503",
             "name": "Federació de Bàsquet de les Illes Balears",
@@ -785,7 +809,7 @@
                 "telephone": "971730503"
             },
             "image": [
-                "https://lh5.googleusercontent.com/p/AF1QipNLkrvvkh7krihvT4FaVhDp78OtPEdaW65gxz-B=w408-h271-k-no"
+                "img/JPG/BasquetIllesBalears.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
@@ -798,6 +822,7 @@
             "@type": "sport_centers",
             "@identifier": 4,
             "tipusE":"Basket",
+            "subtipus": "instalacions",
             "email": " sjo@santjosepobrer.es",
             "telephone": "971473308",
             "name": "Club Sant Josep",
@@ -820,15 +845,14 @@
                 "telephone": "971473308"
             },
             "image": [
-                "https://lh5.googleusercontent.com/p/AF1QipM1xY3GV8i115HDG9XZmrQdjIJXu0wVZMoGOeSW=w408-h306-k-no"
+                "img/JPG/SantJosep.jpg"
             ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "video": [
-                    "https://twitter.com/i/status/792721790569177088"
+                    "https://youtu.be/4gRV3SYKYig"
                 ]
             }
         }
-
     ]
 }

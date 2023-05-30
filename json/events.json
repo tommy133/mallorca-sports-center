@@ -1,0 +1,204 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "itemList",
+    "itemListElement": [
+        {
+            "@type": "sport_centers",
+            "@identifier": 0,
+            "name": "Circuit",
+            "tipusE": "Pàdel",
+            "subtipus": "event",
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NM3FqjuWIzDDjrpcK9T/%3Aembed",
+            "image": [
+                "img/events/circuit.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 1,
+            "name": "Benefico",
+            "tipusE": "Pàdel",
+            "subtipus": "event",
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NU15QXd06OPJrFRdqv7/:embed",
+            "image": [
+                "img/events/benefico.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 2,
+            "name": "Mediolanum",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NS-AUAN8A2AchlIVuy-/:embed",
+            "image": [
+                "img/events/mediolanum.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 3,
+            "name": "U3",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NUO5-hfYjQCPTwSlpex/:embed",
+            "image": [
+                "img/events/U3.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 4,
+            "name": "Torneo Wilson",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NUG-4yFzrwvQc6Yc-Li/:embed",
+            "image": [
+                "img/events/Wilson.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 5,
+            "name": "Adidas",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NURZVXXsuq8wu0TK3hC/:embed",
+            "image": [
+                "img/events/AdidasTour.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 6,
+            "name": "Torneo Aniversario",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NSA4ohprTsz-TOfLJHI/:embed",
+            "image": [
+                "img/events/Aniversario.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 7,
+            "name": "Harlem Globetrotters",
+            "tipusE": "Basket",
+            "subtipus": "event",           
+            "url": "https://www.elcorteingles.es/entradas/deporte/entradas-harlem-globetrotters-mallorca/",
+            "image": [
+                "img/events/Harlem.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 8,
+            "name": "Campus escalada",
+            "tipusE": "Escalada",
+            "subtipus": "event",           
+            "url": "https://www.facebook.com/photo/?fbid=945741356387854&set=pcb.945741446387845&locale=es_ES",
+            "image": [
+                "img/events/Campus.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 9,
+            "name": "Curso escalada",
+            "tipusE": "Escalada",
+            "subtipus": "event",           
+            "url": "https://www.facebook.com/photo/?fbid=618541826984839&set=a.449650420540648&locale=es_ES",
+            "image": [
+                "img/events/Curso.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 10,
+            "name": "Torneo Baum",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://megasportcentre.com/torneo-padel-baum-9-al-18-de-junio/",
+            "image": [
+                "img/events/Baum.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 11,
+            "name": "Torneo MSC Cruceros",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NUc-qgfrMJBgtM8EqMj/:embed",
+            "image": [
+                "img/events/Crucero.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 12,
+            "name": "Torneo Verano",
+            "tipusE": "Pádel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NVAVKt-4JFLNcApE2Rh/:embed",
+            "image": [
+                "img/events/Verano.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 13,
+            "name": "Torneo FinestBox",
+            "tipusE": "Pàdel",
+            "subtipus": "event",           
+            "url": "https://torneos.sportelia.es/#/tournaments-details/-NRXXUzJnPU3htyG60Fv/:embed",
+            "image": [
+                "img/events/FinestBox.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 14,
+            "name": "Summer Skills",
+            "tipusE": "Basket",
+            "subtipus": "event",           
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFfdIIx1iSLVks0fCHSuikgoPRN64gSQ2Rjo6oQMYiMlHQyQ/viewform",
+            "image": [
+                "img/events/Summer.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 15,
+            "name": "Campus Tecnificación",
+            "tipusE": "Basket",
+            "subtipus": "event",           
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSe1uai61m15M2U9xznakw87PmL7KeY9pyEeOWQLTu8bqskEVw/viewform",
+            "image": [
+                "img/events/CampusTec.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 16,
+            "name": "GABY OCETE CAMP",
+            "tipusE": "Basket",
+            "subtipus": "event",           
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4eL02h_MoEEfk5Iyt30RfilHYAZFHB2y6FCwg5PBKm6JFgA/viewform",
+            "image": [
+                "img/events/GabyCamp.jpg"
+            ]
+        },
+        {
+            "@type": "sport_centers",
+            "@identifier": 17,
+            "name": "Campus de tiro",
+            "tipusE": "Basket",
+            "subtipus": "event",           
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSc6ABQezJXkkQP_KdWGpep_9otNAClD7KQv4L2rQk78HfEWPQ/viewform",
+            "image": [
+                "img/events/Tiro.jpg"
+            ]
+        }
+    ]
+}
