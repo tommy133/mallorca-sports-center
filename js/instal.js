@@ -53,6 +53,9 @@ function displayCenters() {
       img.setAttribute("src", center.image);
       img.setAttribute("alt", "");
 
+      img.style.height = "220px";
+      img.style.width = "200%";
+
       const textContainer = document.createElement("div");
       textContainer.classList.add("position-relative", "text-center");
 

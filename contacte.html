@@ -95,6 +95,7 @@
                       type="text"
                       class="form-control border-0 p-4"
                       id="name"
+                      name="name"
                       placeholder="Nom"
                       required="required"
                       data-validation-required-message="Please enter your name"
@@ -106,6 +107,7 @@
                       type="email"
                       class="form-control border-0 p-4"
                       id="email"
+                      name="email"
                       placeholder="Email"
                       required="required"
                       data-validation-required-message="Please enter your email"
@@ -118,6 +120,7 @@
                     type="text"
                     class="form-control border-0 p-4"
                     id="subject"
+                    name="subject"
                     placeholder="Concepte"
                     required="required"
                     data-validation-required-message="Please enter a subject"
@@ -129,6 +132,7 @@
                     class="form-control border-0 py-3 px-4"
                     rows="3"
                     id="message"
+                    name="message"
                     placeholder="Missatge"
                     required="required"
                     data-validation-required-message="Please enter your message"
@@ -140,6 +144,7 @@
                     class="btn btn-primary py-3 px-4"
                     type="submit"
                     id="sendMessageButton"
+                    value="Send Email"
                   >
                     Enviar Missatge
                   </button>
@@ -226,11 +231,13 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/mail.js"></script>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('z3sy3rrnTO84iUj0W') </script>
+
   </body>
 </html>
