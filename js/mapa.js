@@ -2,9 +2,12 @@ let map;
 let selectedMarker;
 let markers = [];
 let hotelDistances = [];
+let restauranteDistances = [];
+let gymDistances = [];
 
-async function initMap() {
-  const { Map, InfoWindow, Icon } = await google.maps.importLibrary("maps");
+async function initMap() 
+{
+  const { Map, InfoWindow, Icon} = await google.maps.importLibrary("maps");
   map = new Map(document.getElementById("map"), {
     center: { lat: 39.62, lng: 2.93 },
     zoom: 10,
@@ -12,7 +15,8 @@ async function initMap() {
 
   const infoWindow = new InfoWindow(); // InfoWindow para mostrar la foto
 
-   const iconosDeporte = {
+   const iconosDeporte = 
+   {
     Escalada: "svg/escalada.svg",
     Basket: "svg/basket.svg",
     Pàdel: "svg/padel.svg",
@@ -51,7 +55,9 @@ async function initMap() {
               <img src="${foto}" alt="Foto" style="width: 200px;">
               <h5>${nom}</h5>
               <p>${deporte}</p>
-              <a href="#" onclick="hotelesMasCerca('${marker.getPosition().toString()}')">Hotels més aprop</a>
+              <a href="#" onclick="hotelesMasCerca('${marker.getPosition().toString()}')">Hotels més aprop</a><br>
+              <a href="#" onclick="restaurantesMasCerca('${marker.getPosition().toString()}')">Restaurants més aprop</a><br>
+              <a href="#" onclick="gymMasCerca('${marker.getPosition().toString()}')">Gimnassos més aprop</a>
             </div>
           `;
           infoWindow.setContent(content);
@@ -70,7 +76,8 @@ async function initMap() {
     });
 }
 
-async function hotelesMasCerca(selectedMarkerPosition) {
+async function hotelesMasCerca(selectedMarkerPosition) 
+{
   markers.forEach((marker) => {
     if (marker.getPosition().toString() !== selectedMarkerPosition) {
       marker.setMap(null); // Eliminar marcadores diferentes al seleccionado
@@ -86,7 +93,7 @@ async function hotelesMasCerca(selectedMarkerPosition) {
       data.itemListElement.forEach((element) => {
         const latitude = parseFloat(element.geo.latitude);
         const longitude = parseFloat(element.geo.longitude);
-        const foto = element.image;
+        const foto = element.logo;
         const nom = element.name;
 
         const icon = {
@@ -136,7 +143,145 @@ async function hotelesMasCerca(selectedMarkerPosition) {
     });
 
     
+    
 }
+
+async function restaurantesMasCerca(selectedMarkerPosition) 
+{
+  markers.forEach((marker) => {
+    if (marker.getPosition().toString() !== selectedMarkerPosition) {
+      marker.setMap(null); // Eliminar marcadores diferentes al seleccionado
+    }
+  });
+
+  const { InfoWindow } = await google.maps.importLibrary("maps");
+  const infoWindow = new InfoWindow();
+
+  fetch("json/restaurants.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.itemListElement.forEach((element) => {
+        const latitude = parseFloat(element.geo.latitude);
+        const longitude = parseFloat(element.geo.longitude);
+        const foto = element.logo;
+        const nom = element.name;
+
+        const icon = {
+          url: "svg/restaurante.svg",
+          scaledSize: new google.maps.Size(20, 20), 
+          anchor: new google.maps.Point(0, 0), 
+        };
+
+        const markerRestaurante = new google.maps.Marker({
+          position: { lat: latitude, lng: longitude },
+          map: map,
+          icon: icon, 
+        });
+
+        const restauranteDistance = {
+          name: nom,
+          distance: calculateDistance(selectedMarker,markerRestaurante),
+          marker: markerRestaurante
+        }
+
+        restauranteDistances.push(restauranteDistance);
+
+        markerRestaurante.addListener("click", () => {
+          const content = `
+            <div>
+              <img src="${foto}" alt="Foto" style="width: 200px;">
+              <h5>${nom}</h5>
+            </div>
+          `;
+          infoWindow.setContent(content);
+          infoWindow.open(map, markerRestaurante);
+        });
+      });
+      // Sort the array by distance
+    restauranteDistances.sort(compareDistance);
+
+    //una vegada ordenats mos petam es markers menos es més propers
+
+    for (let i = 5; i < restauranteDistances.length; i++) {
+      restauranteDistances[i].marker.setMap(null); 
+    }
+    
+    
+    })
+    .catch((error) => {
+      console.error("Error al cargar el archivo JSON:", error);
+    });   
+    
+}
+
+async function gymMasCerca(selectedMarkerPosition) 
+{
+  markers.forEach((marker) => {
+    if (marker.getPosition().toString() !== selectedMarkerPosition) {
+      marker.setMap(null); // Eliminar marcadores diferentes al seleccionado
+    }
+  });
+
+  const { InfoWindow } = await google.maps.importLibrary("maps");
+  const infoWindow = new InfoWindow();
+
+  fetch("json/gym.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.itemListElement.forEach((element) => {
+        const latitude = parseFloat(element.geo.latitude);
+        const longitude = parseFloat(element.geo.longitude);
+        const foto = element.logo;
+        const nom = element.name;
+
+        const icon = {
+          url: "svg/gym.svg",
+          scaledSize: new google.maps.Size(20, 20), 
+          anchor: new google.maps.Point(0, 0), 
+        };
+
+        const markerGym = new google.maps.Marker({
+          position: { lat: latitude, lng: longitude },
+          map: map,
+          icon: icon, 
+        });
+
+        const gymDistance = {
+          name: nom,
+          distance: calculateDistance(selectedMarker,markerGym),
+          marker: markerGym
+        }
+
+        gymDistances.push(gymDistance);
+
+        markerGym.addListener("click", () => {
+          const content = `
+            <div>
+              <img src="${foto}" alt="Foto" style="width: 200px;">
+              <h5>${nom}</h5>
+            </div>
+          `;
+          infoWindow.setContent(content);
+          infoWindow.open(map, markerGym);
+        });
+      });
+      // Sort the array by distance
+    gymDistances.sort(compareDistance);
+
+    //una vegada ordenats mos petam es markers menos es més propers
+
+    for (let i = 5; i < gymDistances.length; i++) {
+      gymDistances[i].marker.setMap(null); 
+    }
+    
+    
+    })
+    .catch((error) => {
+      console.error("Error al cargar el archivo JSON:", error);
+    });  
+    
+}
+
 
 // Function to calculate the distance between two markers
 function calculateDistance(marker1, marker2) {
