@@ -9909,3 +9909,14 @@ body {
 #deporte-select{
   margin-left:10px;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  max-width: 90%;
+  max-height: 90%;
+}
