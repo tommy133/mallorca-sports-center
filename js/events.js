@@ -47,6 +47,7 @@ function displayCenters() {
         "mb-5"
       );
 
+      const url = event.url;
       const img = document.createElement("img");
       img.classList.add("img-fluid", "events-img");
       img.setAttribute("src", event.image);
@@ -56,8 +57,8 @@ function displayCenters() {
       img.style.width = "200%";
 
       team.addEventListener("click", function(event) {
-        event.preventDefault();
-        const url = event.url;
+        //event.preventDefault();
+        //alert("url:"+url);
         window.open(url, "_blank");
       });
 
