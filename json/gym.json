@@ -1,0 +1,1448 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "itemList",
+    "itemListElement": [
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 0,
+            "email": "vivagym@gmail.com",
+            "telephone": "971 73 18 01",
+            "description": "Viva GYM es una de los principales operadoras españolas de gimnasios low cost, con presencia internacional. Cuenta con más de 49 centros operativos en todo el país y se mantiene en franco crecimiento. Combina su pasión por el fitness con la oferta de maquinaria de última generación.",
+            "name": "VivaGym",
+            "url": "https://www.vivagym.es/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo,Tu,We,Th,Fr 06:00-22:15",
+                "Sa,Su 09:00-20:15"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios VivaGym",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Body Pump"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "Programa de entrenamiento físico que combina las actividades propias del aeróbic con trabajo muscular mediante la realización de ejercicios de levantamiento de pesas.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Pilates"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "Sistema de entrenamiento físico y mental basado en gimnasia, traumatología y yoga",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cycling"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "Con nuestras clases de cycling, mejorará tu circulación y equilibrará tu presión arterial.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Zumba"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "Disciplina fitness enfocada en  fortalecer y dar flexibilidad al cuerpo mediante movimientos de baile combinados con una serie de rutinas aeróbicas.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Yoga"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "El yoga es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Hyroxwod"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "HYROX es la nueva carrera de fitness que combina 8 km de running y 8 workouts de manera intercalada.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Body Combat"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "Actividad aeróbica que permite quemar gran cantidad de grasa sin afectar al funcionamiento del músculo.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Gap"
+                        },
+                        "price": "34.90",
+                        "priceCurrency": "EUR",
+                        "category": "Conjunto de ejercicios orientados al trabajo de los glúteos, los abdominales y las piernas.",
+                        "priceSpecification": "Cuota ZONE o IBERIA"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07013",
+                    "streetAddress": "Carrer De Caro 23"
+                },
+                "latitude": 39.57350753208752,
+                "longitude": 2.6369047006334205
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "vivagym@gmail.com",
+                "telephone": "971 73 18 01"
+            },
+            "photo": [
+                "assets/images/vivagym_logo.png",
+                "assets/images/vivagym1.png",
+                "assets/images/vivagym2.jpg",
+                "assets/images/vivagym3.jpg",
+                "assets/images/vivagym4.jpg",
+                "assets/images/vivagym5.png"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=82UmYkb7Vr0"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 1,
+            "email": "info@joelfitness.com",
+            "telephone": "871 535 552",
+            "description": "Nuestra misión es ayudar a nuestros clientes a sentirse mejor. Brindamos compromiso, confianza, alegría, profesionalidad y pasión a todos nuestros clientes. Ofrecemos lo mejor de cada uno de nosotros, transmitiendo nuestra filosofía del deporte, la salud y el equilibrio entre ambas, con la finalidad de ayudarlos y de que cumplan su objetivo de mejora.",
+            "name": "Joel Fitness",
+            "url": "https://joelfitness.com/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo,Tu,We,Th,Fr 06:30-23:00",
+                "Sa 09:00-20:00",
+                "Su 09:00-13:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios JoelFitness",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Entrenador Personal"
+                        },
+                        "price": "34.95",
+                        "priceCurrency": "EUR",
+                        "category": "Ponemos a tu disposición nuestro servicio de entrenamiento personal formado por un equipo de profesionales.",
+                        "priceSpecification": "Cuota básica o tardeo básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Recuperación Funcional"
+                        },
+                        "price": "34.95",
+                        "priceCurrency": "EUR",
+                        "category": "Podrás contar con un entrenador personal especializado para rehabilitar lesiones, tratar dolores o patologías musculares, articulares y óseas.",
+                        "priceSpecification": "Cuota básica o tardeo básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Tienda de nutrición deportiva"
+                        },
+                        "price": "34.95",
+                        "priceCurrency": "EUR",
+                        "category": "Contarás con una tienda para comprar diversos suplementes que te ayuden en tu desarrollo.",
+                        "priceSpecification": "Cuota básica o tardeo básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Aparcamiento Gratuito"
+                        },
+                        "price": "34.95",
+                        "priceCurrency": "EUR",
+                        "category": "Ponemos a tu disposición un aparcamiento gratuito durante 2 horas.",
+                        "priceSpecification": "Cuota básica o tardeo básica"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07003",
+                    "streetAddress": "Carrer d'Alfred Bonet, 4"
+                },
+                "latitude": 39.5791074251326,
+                "longitude": 2.6474176111201664
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@joelfitness.com",
+                "telephone": "871 535 552"
+            },
+            "photo": [
+                "assets/images/joelfitness_logo.png",
+                "assets/images/joel1.webp",
+                "assets/images/joel2.webp",
+                "assets/images/joel3.webp",
+                "assets/images/joel4.webp",
+                "assets/images/joel5.webp",
+                "assets/images/joel6.webp",
+                "assets/images/joel7.webp",
+                "assets/images/joel8.webp"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=0J3wxsTWQF4"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 2,
+            "email": "mirandagym@gmail.com",
+            "telephone": "971 26 79 94",
+            "description": "Este proyecto nació en Septiembre de 1996 como un gimnasio en la Plaza de San Marino típico de los años 90. Un Gimnasio especializado en deportes de contacto, que además contaba con una pequeña sala de pesas y una zona para realizar actividades dirigidas.",
+            "name": "MirandaGym",
+            "url": "https://mirandagym.es/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo,Tu,We,Th,Fr 09:00-21:30",
+                "Sa 10:00-13:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios MirandaGym",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Taekwondo"
+                        },
+                        "price": "30",
+                        "priceCurrency": "EUR",
+                        "category": "Desde MirandaGym estamos convencidos que practicar taekwondo ofrece numerosos beneficios para la salud, tanto físicos como mentales. Esta disciplina deportiva ayuda a mejorar la resistencia cardiovascular, la resistencia y fuerza muscular, la flexibilidad y la concentración.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Entrenador Personal"
+                        },
+                        "price": "30",
+                        "priceCurrency": "EUR",
+                        "category": "Un entrenador personal es un profesional del fitness, cualificado en actividad física, que te ayuda a conseguir tus objetivos de un modo personalizado.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cuota básica"
+                        },
+                        "price": "30",
+                        "priceCurrency": "EUR",
+                        "category": "En MirandaGym dispones de una sala totalmente renovada, con nuevo suelo especialmente diseñado para amortiguar los impactos físicos y del material.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Piscina"
+                        },
+                        "price": "30",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07007",
+                    "streetAddress": "Carrer de Guasp, 58"
+                },
+                "latitude": 39.55399663107142,
+                "longitude": 2.6978387172562934
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "mirandagym@gmail.com",
+                "telephone": "971 26 79 94"
+            },
+            "photo": [
+                "assets/images/miranda_logo.png",
+                "assets/images/miranda1.jpeg",
+                "assets/images/miranda2.jpeg",
+                "assets/images/miranda3.jpeg",
+                "assets/images/miranda4.jpeg",
+                "assets/images/miranda5.jpeg",
+                "assets/images/miranda6.jpeg",
+                "assets/images/miranda7.jpeg",
+                "assets/images/miranda8.jpeg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "video1",
+                    "video2"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 3,
+            "email": "mggtonic@hotmail.com",
+            "telephone": "971433131",
+            "description": "Gym Tonic Palma, gimnasio abierto las 24 horas",
+            "name": "Gym Tonic Palma",
+            "url": "https://www.facebook.com/gimnasioenmallorca/",
+            "currenciesAccepted": "EUR",
+            "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-24:00",
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Matrículas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "3 meses"
+                        },
+                        "price": "88",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "6 meses"
+                        },
+                        "price": "133",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "12 meses"
+                        },
+                        "price": "256",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07009",
+                    "streetAddress": "C/ Gremi de Ferrers, 24, B"
+                },
+                "latitude": 39.600608,
+                "longitude": 2.668646
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "mggtonic@hotmail.com",
+                "telephone": "971433131"
+            },
+            "photo": [
+                "assets/images/gymtonic_logo.png",
+                "https://cdns3.fitfit.fitness/es/media/items/540x280/2120-Gimnasio-Gym-Tonic-fY3zJ.jpg",
+                "https://lh3.googleusercontent.com/p/AF1QipP4SwrErqrxKTLmetY8-zc6otxPw4213Gr1F3kh=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO2gpdr6YOAGu4bAFPDTAeW9SEvTNNMtXcyr-Ye=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMfluPmmJP00DgLO2Mg_4RVyO8kOeAFoJe3qwLB=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMLqaUW2CMtKOBoLcpBV6dQn2CKh4NVbvkP5p9-=s1360-w1360-h1020"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=Z78m-MHoP0s"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 4,
+            "email": "portopi@altafit.es",
+            "telephone": "912999013",
+            "description": "AltaFit, Gym Club",
+            "name": "AltaFit",
+            "url": "https://altafitgymclub.com/gimnasios/islasbaleares-portopi/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo-Fr 07:00-23:00",
+                "Sa 09:00-20:00",
+                "Su 10:00-15:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GBODY"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "BESTCYCLING"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GBOX"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "YOGA"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GMIND"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GAP"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GCORE"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GBIKE"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GPOWER"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "ZUMBA"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "PILATES"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GDANCE"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "TRX"
+                        },
+                        "price": "36.90",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07015",
+                    "streetAddress": "Centro Comercial, Av. de Gabriel Roca, 54"
+                },
+                "latitude": 39.551902,
+                "longitude": 2.622196
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "portopi@altafit.es",
+                "telephone": "912999013"
+            },
+            "photo": [
+                "assets/images/altafit_logo.png",
+                "https://altafit-connect.com/gallery_images/SsF5C9WTRxXZJubEsection5.png",
+                "https://altafit-connect.com/gallery_images/CzSVoTKY0dQEzROqsection5.png",
+                "https://altafit-connect.com/gallery_images/IvSxGsCsGRdOPG9vsection5.png",
+                "https://altafit-connect.com/gallery_images/PeKoqUpEJ0Kp92F1section5.png",
+                "https://altafit-connect.com/gallery_images/JU6e5FAyHfguojHQsection5.png"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=Ytb6NrZ8W6k"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 5,
+            "email": "megasportcenter@gmail.com",
+            "telephone": "971205922",
+            "description": "MegaSport, el gimnasio mas grande de España",
+            "name": "MegaSport Center",
+            "url": "https://megasportcentre.com",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo-Fr 06:00-23:00",
+                "Sa-Su 08:00-22:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "GYM"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "SPA"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "PÁDEL"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "YOGA"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "BAILES"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "BOXEO"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "MEGARUNNING"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "MEGACYCLING"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "MEGAWALKING"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "BODYPUMP"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "BODYCOMBAT"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "CALISTENIA"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "PILATES"
+                        },
+                        "price": "79.99",
+                        "priceCurrency": "EUR",
+                        "category": "Descubre un espacio que te hará sentir mejor. Ya sea en verano, cuando el calor se intensifica, o en invierno cuando el agua está calentita siempre apetece darse un buen baño en la piscina para desconectar y relajarse.",
+                        "priceSpecification": "Cuota básica"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07011",
+                    "streetAddress": "Carrer dels Fertilitzans"
+                },
+                "latitude": 39.592403,
+                "longitude": 2.638299
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "megasportcenter@gmail.com",
+                "telephone": "971205922"
+            },
+            "photo": [
+                "assets/images/megasport_logo.jpg",
+                "https://megasportcentre.com/wp-content/uploads/2022/06/fitness-area-megasport-scaled.jpg",
+                "https://www.tugimnasio.es/wp-content/uploads/2021/08/megasport-mallorca.jpg",
+                "https://www.tugimnasio.es/wp-content/uploads/2021/08/boxeo-megasport.jpg",
+                "https://cocoach.es/views/layouts/plantilla/img/servicios_ubicaciones/1867/286/megasport-centre-Gn10oP.jpg",
+                "https://www.tugimnasio.es/wp-content/uploads/2021/08/padel-y-piscina-megasport.jpg",
+                "https://mm.gsstatic.es/sfAttachPlugin/130155.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=xpk4ywmMENk"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 6,
+            "email": "info@mcfit.es",
+            "telephone": "971716458",
+            "description": "McFIT es una marca de gimnasios de origen alemán, que opera más de 300 gimnasios con más de 1,5 millones de socios, lo que la convierte en la cadena de gimnasios más grande de Europa. El concepto de McFIT se basa en la oferta de entrenamiento con pesas y entrenamiento de resistencia, ejercicios de elongación y parcialmente, asesoramiento nutricional.",
+            "name": "McFIT",
+            "url": "https://www.mcfit.com/de/studios/studiosuche/studiodetails/studio/palma-de-mallorca/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo-Fr 06:00-00:00",
+                "Sa-Su 08:00-21:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cardio"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Mejora tu resistencia, cintas de correr, máquinas y más.",
+                        "priceSpecification": "Suscripción Básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Peso libre"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Fortalece tu cuerpo, mancuernas, barras, bancos.",
+                        "priceSpecification": "Suscripción Básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Máquinas"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +50 Máquinas",
+                        "priceSpecification": "Suscripción Básica"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Clases con entrenador"
+                        },
+                        "price": "39.99",
+                        "priceCurrency": "EUR",
+                        "category": "Aumenta tu rendimiento, con los mejores entrenadores personales.",
+                        "priceSpecification": "Suscripción McFitPlus"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07012",
+                    "streetAddress": "Av. de Portugal, 7"
+                },
+                "latitude": 39.57602,
+                "longitude": 2.64503
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "mcfit@gmail.com",
+                "telephone": "971716458"
+            },
+            "photo": [
+                "assets/images/mcfit_logo.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit2.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit3.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit4.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit5.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit6.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit7.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit8.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/mcfit9.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/maquinas.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/pesas.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/clases.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/cardio def.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=SEYeuSYtmlI",
+                    "https://www.youtube.com/watch?v=iLq7xRfYH84"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 7,
+            "email": "info@profitness.es",
+            "telephone": "971757586",
+            "description": "PROFITNESS es un Club orientado 360º a sus Socios/as para cuidarse y sentirse bien. Un espacio de vanguardia que respira Salud y Deporte.",
+            "name": "ProFitness",
+            "url": "https://www.profitness.es/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo-Fr 06:30-22:30",
+                "Sa-Su 08:30-20:30"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Pilates"
+                        },
+                        "price": "12",
+                        "priceCurrency": "EUR",
+                        "category": "Actividad de cuerpo-mente que utiliza diversas técnicas de concentración derivadas de esta doctrina filosófica para conseguir un mayor control físico y mental",
+                        "priceSpecification": "Suscripción Socio"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Body combat"
+                        },
+                        "price": "12.99",
+                        "priceCurrency": "EUR",
+                        "category": "Actividad cardio inspirada en la fusión de múltiples artes marciales con apoyo musical y coreográfico. Ayudará a mejorar fuerza, agilidad, coordinación y potencia muscular.",
+                        "priceSpecification": "Suscripción Socio"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Body pump"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Actividad de tonificación donde fortalecerás los principales grupos musculares de tu cuerpo con barras y discos al ritmo de la música.",
+                        "priceSpecification": "Suscripción Socio"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Zumba"
+                        },
+                        "price": "12",
+                        "priceCurrency": "EUR",
+                        "category": "Actividad de baile que fusiona coreografía y ejercicios específicos de un entrenamiento cardiovascular convirtiéndola en una forma de hacer ejercicio sin que sientas que lo estás haciendo.",
+                        "priceSpecification": "Suscripción Socio"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07010",
+                    "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1"
+                },
+                "latitude": 39.595928305264565,
+                "longitude": 2.6481285619045853
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@profitness.es",
+                "telephone": "971757586"
+            },
+            "photo": [
+                "assets/images/profitness_logo.png",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness1.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness2.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness3.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness4.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness5.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness6.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness7.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/profitness8.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/body-combat.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/body-pump.png",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/pilates.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/zumba.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=P5TB8N4IshQ",
+                    "https://www.youtube.com/watch?v=3bn3oE3NEO8"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 8,
+            "email": "info@fitpoint.es",
+            "telephone": "971127520",
+            "description": "Fit Point es un gimnasio ubicado en Palma de Mallorca. En nuestro centro encontrarás una gran variedad de actividades dirigidas en unas instalaciones cómodas y modernas. Aprovecha nuestro completo equipo de instructores cualificados para guiarte en la consecuión de tu objetivo personal.",
+            "name": "FitPoint",
+            "url": "https://fitpoint.es/",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo-Fr 06:00-23:00",
+                "Sa-Su 09:90-21:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cycling"
+                        },
+                        "price": "39.99",
+                        "priceCurrency": "EUR",
+                        "category": "El cycling  indoor en Fit Point consiste en la realización de actividades dirigidas en una bicicleta fija al ritmo de la música elegida para cada sesión. Esto convierte al cycling en una actividad con clases muy emocionantes, llenas de ritmo y energía y dotadas de una motivación excepcional.",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "FitCross"
+                        },
+                        "price": "39.99",
+                        "priceCurrency": "EUR",
+                        "category": "El fitcross  es una actividad dirigida basada en ejercicios que se realizan con alta intensidad. A diferencia de otras clases dirigidas, el fitcross no es tan rutinario y cada sesión es distinta a la anterior. Se trata de un entrenamiento dirigido a mejorar la fuerza y el aumento de la resistencia tanto física como mental. ",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Pádel"
+                        },
+                        "price": "39.99",
+                        "priceCurrency": "EUR",
+                        "category": "En Fit Point podrás encontrar las mejores pistas de pádel indoor y de exterior en Palma de Mallorca. Contamos con un total de nueve pistas de pádel, seis de ellas de interior y el resto ubicadas en nuestras instalaciones exteriores.",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Máquinas"
+                        },
+                        "price": "39.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07007",
+                    "streetAddress": "Polígono Son Morro"
+                },
+                "latitude": 39.57490940262067,
+                "longitude": 2.6885068539681956
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@fitpoint.es",
+                "telephone": "971127520"
+            },
+            "photo": [
+                "assets/images/fitpoint_logo.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint1.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint2.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint3.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint4.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint5.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint6.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint7.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fitpoint8.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/fit-cross.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/cycling.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/padel.jpg",
+                "https://www.gimnasiosmallorca.com/Multimedia/assets/images/maquinas.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=cU_ObHDr9jk",
+                    "https://www.youtube.com/watch?v=I2Qw_RXHh5w"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 9,
+            "email": "olympiafitnessclub@gmail.com",
+            "telephone": "971204561",
+            "description": "Joe Weider's Olympia Fitness Club",
+            "name": "Olympia Fitness Club",
+            "url": "olympiafitnessclub.com",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo,Tu,We,Th,Fr 08:00-22:00",
+                "Sa 9:00-17:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cuota mensual"
+                        },
+                        "price": "38",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cuota trimestral"
+                        },
+                        "price": "90",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07003",
+                    "streetAddress": "Carrer d'Henri Dunant 17"
+                },
+                "latitude": 39.58448941440355,
+                "longitude": 2.66206
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "olympiafitnessclub@gmail.com",
+                "telephone": "971204561"
+            },
+            "photo": [
+                "assets/images/olympia_logo.jpg",
+                "assets/images//Olympia1.jpg",
+                "assets/images//Olympia2.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=kkS0Psp-az4"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 10,
+            "email": "info@synergym.es",
+            "telephone": "682475926",
+            "description": "Fit together",
+            "name": "Synergym",
+            "url": "www.synergym.es",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo,Tu,We,Th,Fr 06:00-23:00",
+                "Sa 09:00-18:00",
+                "Su,Holidays 09:00-14:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Spinning"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Cross-boxing"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Sala de máquinas"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Flow"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Boompa 45"
+                        },
+                        "price": "29.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07005",
+                    "streetAddress": "C/ Joaquim Maria Bover 3"
+                },
+                "latitude": 39.57864,
+                "longitude": 2.64816
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@synergym.es",
+                "telephone": "682475926"
+            },
+            "photo": [
+                "assets/images/synergym_logo.png",
+                "assets/images//Synegrym1.jpg",
+                "assets/images//Synergym2.jpg",
+                "assets/images//Synergym3.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [],
+                "video": [
+                    "https://www.youtube.com/watch?v=7jXKE7WDYRs"
+                ]
+            }
+        },
+        {
+            "@type": "ExerciseGym",
+            "@identifier": 11,
+            "email": "info@duetsports.com",
+            "telephone": "971270210",
+            "description": "Duet Sports",
+            "name": "Duet Sports",
+            "url": "www.duetsports.com",
+            "currenciesAccepted": "EUR",
+            "openingHours": [
+                "Mo,Tu,We,Th,Fr 06:45-22:30",
+                "Sa 08:00-20:00",
+                "Su 09:00-14:00"
+            ],
+            "paymentAccepted": "Cash, Credit Card",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Actividades ofrecidas",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Suscripción mensual"
+                        },
+                        "price": "59.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Padel"
+                        },
+                        "price": "59.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Nutrición"
+                        },
+                        "price": "59.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Fisioterapia"
+                        },
+                        "price": "59.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Sala de máquinas"
+                        },
+                        "price": "59.99",
+                        "priceCurrency": "EUR",
+                        "category": "Trabaja tus músculos, +40 Máquinas",
+                        "priceSpecification": "Suscripción Mensual"
+                    }
+                ]
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Palma",
+                    "postalCode": "07006",
+                    "streetAddress": "Carrer Cuba, 7"
+                },
+                "latitude": 39.56293175607186,
+                "longitude": 2.67415
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "info@duetsports.com",
+                "telephone": "971270210"
+            },
+            "photo": [
+                "assets/images/duet_logo.jpg",
+                "assets/images//Duet1.jpg",
+                "assets/images//Duet2.jpg",
+                "assets/images//Duet3.jpg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "audio": [
+                    "audio1",
+                    "audio2"
+                ],
+                "video": [
+                    "https://www.youtube.com/watch?v=n9ZWi5dc2bY"
+                ]
+            }
+        }
+    ]
+}
