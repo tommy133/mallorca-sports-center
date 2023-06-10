@@ -3,7 +3,7 @@ let centers;
 let filterInput = document.getElementById('filterInput');
 let filterButton = document.getElementById('filterButton');
 
-
+let selectedItem = null;
 
 const xhttp = new XMLHttpRequest();
 xhttp.open("GET", "json/Sport_Center.json", true);
@@ -115,22 +115,32 @@ function displayCenters() {
       instagram.appendChild(instagramIcon);
 
       team.addEventListener('click', function activarSidebar() {
-        createSidebar(center);
-        // This function will display the details of the selected element
-        document.getElementById('sidebar').classList.toggle('active');
+        if (selectedItem) {
+          document.getElementById('sidebar').classList.remove('active');
+        }
         
+        // Verificar si se hizo clic en un elemento diferente al actual
+        if (selectedItem !== this) {
+          selectedItem = this;
+          createSidebar(center);
+          document.getElementById('sidebar').classList.add('active');
+        } else {
+          selectedItem = null;
+        }
+      
         const displayItemsList = document.querySelectorAll('.display-items');
         displayItemsList.forEach((element) => {
-            if (sidebar.classList.contains('active')) {
-                element.style.marginLeft = '0';
-                element.style.marginBottom = '500px';
-                detectarCambioTamanioVentana();
-            } else {
-                element.style.width = '100%';
-                element.style.marginLeft = '';
-            }
+          if (document.getElementById('sidebar').classList.contains('active')) {
+            element.style.marginLeft = '0';
+            element.style.marginBottom = '500px';
+            detectarCambioTamanioVentana();
+          } else {
+            element.style.width = '100%';
+            element.style.marginLeft = '';
+          }
         });
-      });
+      }
+      );
 
   });
   const container = document.getElementById("centers-container");
